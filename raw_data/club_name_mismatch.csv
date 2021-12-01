@@ -1,0 +1,237 @@
+,name,help
+0,Paris Saint-Germain,1.0
+1,Olympique Lyon,
+2,AS Monaco,1.0
+3,Olympique Marseille,
+4,AS Saint-Étienne,1.0
+5,FC Girondins Bordeaux,
+6,Montpellier HSC,1.0
+7,LOSC Lille,1.0
+8,Stade Rennais FC,1.0
+9,EA Guingamp,
+10,OGC Nice,1.0
+11,SM Caen,
+12,FC Nantes,1.0
+13,Stade Reims,
+14,FC Lorient,1.0
+15,FC Toulouse,
+16,ES Troyes AC,
+17,Bayern Munich,
+18,VfL Wolfsburg,1.0
+19,Borussia Mönchengladbach,1.0
+20,Bayer 04 Leverkusen,1.0
+21,FC Augsburg,1.0
+22,FC Schalke 04,1.0
+23,Borussia Dortmund,1.0
+24,TSG 1899 Hoffenheim,1.0
+25,Eintracht Frankfurt,1.0
+26,SV Werder Bremen,1.0
+27,1.FSV Mainz 05,
+28,1. FC Köln,1.0
+29,Hannover 96,1.0
+30,VfB Stuttgart,1.0
+31,Hertha BSC,1.0
+32,Hamburger SV,1.0
+33,FC Ingolstadt 04,1.0
+34,SV Darmstadt 98,1.0
+35,SL Benfica,1.0
+36,FC Porto,1.0
+37,Sporting CP,1.0
+38,SC Braga,1.0
+39,Vitória Guimarães SC,
+40,Belenenses SAD,
+41,Rio Ave FC,1.0
+42,Estoril Praia,1.0
+43,PSV Eindhoven,
+44,Ajax Amsterdam,
+45,AZ Alkmaar,1.0
+46,Feyenoord Rotterdam,
+47,Vitesse Arnhem,
+48,PEC Zwolle,1.0
+49,SC Heerenveen,1.0
+50,FC Groningen,1.0
+51,FC Utrecht,1.0
+52,SC Cambuur-Leeuwarden,
+53,Heracles Almelo,1.0
+54,SBV Excelsior Rotterdam,
+55,NEC Nijmegen,1.0
+56,De Graafschap Doetinchem,
+57,Willem II Tilburg,
+58,Juventus FC,
+59,AS Roma,
+60,SS Lazio,
+61,ACF Fiorentina,
+62,SSC Napoli,
+63,Genoa CFC,
+64,UC Sampdoria,
+65,Inter Milan,
+66,Torino FC,
+67,AC Milan,
+68,US Palermo,
+69,US Sassuolo,
+70,Hellas Verona,1.0
+71,Chievo Verona,1.0
+72,FC Empoli,
+73,Udinese Calcio,
+74,Atalanta BC,
+75,Bologna FC 1909,
+76,Carpi FC 1909,
+77,Frosinone Calcio,
+78,CSKA Moscow,
+79,Rubin Kazan,1.0
+80,Spartak Moscow,1.0
+81,Kuban Krasnodar,1.0
+82,FK Ufa,
+83,FK Rostov,
+84,Anzhi Makhachkala,
+85,Zenit St. Petersburg,1.0
+86,Dynamo Moscow,
+87,Lokomotiv Moscow,1.0
+88,Terek Grozny,1.0
+89,Hull City,1.0
+90,Burnley FC,
+91,Queens Park Rangers,1.0
+92,Middlesbrough FC,
+93,Brentford FC,
+94,Ipswich Town,1.0
+95,Wolverhampton Wanderers,1.0
+96,Derby County,1.0
+97,Birmingham City,1.0
+98,Charlton Athletic,1.0
+99,Sheffield Wednesday,1.0
+100,Leeds United,1.0
+101,Huddersfield Town,1.0
+102,Fulham FC,
+103,Reading FC,
+104,Brighton & Hove Albion,1.0
+105,Bristol City,1.0
+106,Preston North End,1.0
+107,Chelsea FC,
+108,Manchester City,1.0
+109,Arsenal FC,
+110,Manchester United,1.0
+111,Tottenham Hotspur,1.0
+112,Liverpool FC,
+113,Southampton FC,
+114,Swansea City,1.0
+115,Stoke City,1.0
+116,Crystal Palace,1.0
+117,Everton FC,
+118,West Ham United,1.0
+119,West Bromwich Albion,1.0
+120,Leicester City,1.0
+121,Newcastle United,1.0
+122,Sunderland AFC,
+123,Aston Villa,1.0
+124,AFC Bournemouth,
+125,Watford FC,
+126,Norwich City,1.0
+127,FC Barcelona,1.0
+128,Real Madrid,1.0
+129,Atlético Madrid,1.0
+130,Valencia CF,1.0
+131,Sevilla FC,1.0
+132,Villarreal CF,1.0
+133,Athletic Bilbao,
+134,Celta de Vigo,
+135,Málaga CF,1.0
+136,RCD Espanyol Barcelona,
+137,Rayo Vallecano,1.0
+138,Real Sociedad,1.0
+139,Levante UD,1.0
+140,Deportivo de La Coruña,1.0
+141,Granada CF,1.0
+142,SD Eibar,1.0
+143,UD Las Palmas,1.0
+144,Real Betis Balompié,
+145,Getafe CF,1.0
+146,SCO Angers,
+147,SC Bastia,
+148,AS Nancy-Lorraine,
+149,Dijon FCO,1.0
+150,FC Metz,1.0
+151,SC Freiburg,1.0
+152,RB Leipzig,1.0
+153,CD Nacional,1.0
+154,GD Chaves,1.0
+155,ADO Den Haag,1.0
+156,Twente Enschede FC,
+157,Roda JC Kerkrade,1.0
+158,Cagliari Calcio,
+159,FC Crotone,
+160,Delfino Pescara 1936,
+161,FK Krasnodar,
+162,Krylya Sovetov Samara,1.0
+163,Ural Yekaterinburg,
+164,Amkar Perm,1.0
+165,FK Orenburg,
+166,Cardiff City,1.0
+167,Blackburn Rovers,1.0
+168,Nottingham Forest,1.0
+169,Rotherham United,1.0
+170,Wigan Athletic,1.0
+171,Burton Albion,1.0
+172,Barnsley FC,
+173,Deportivo Alavés,1.0
+174,CD Leganés,1.0
+175,Sporting Gijón,
+176,CA Osasuna,1.0
+177,Amiens SC,1.0
+178,RC Strasbourg Alsace,1.0
+179,CS Marítimo,
+180,CD Tondela,1.0
+181,FC Paços de Ferreira,1.0
+182,NAC Breda,1.0
+183,Benevento Calcio,
+184,SPAL 2013,
+185,Akhmat Grozny,
+186,Arsenal Tula,1.0
+187,SKA Khabarovsk,1.0
+188,Sheffield United,1.0
+189,Millwall FC,
+190,Girona FC,1.0
+191,Nîmes Olympique,1.0
+192,Fortuna Düsseldorf,1.0
+193,1.FC Nuremberg,
+194,Portimonense SC,1.0
+195,Boavista FC,1.0
+196,CD Feirense,1.0
+197,FC Emmen,1.0
+198,Fortuna Sittard,1.0
+199,Parma Calcio 1913,
+200,SPAL,1.0
+201,Bolton Wanderers,1.0
+202,SD Huesca,1.0
+203,Real Valladolid CF,1.0
+204,Stade Brest 29,
+205,SC Paderborn 07,1.0
+206,1.FC Union Berlin,
+207,Vitória Setúbal FC,
+208,Moreirense FC,1.0
+209,Gil Vicente FC,1.0
+210,VVV-Venlo,1.0
+211,RKC Waalwijk,1.0
+212,Brescia Calcio,
+213,US Lecce,
+214,FC Sochi,
+215,Luton Town,1.0
+216,RCD Mallorca,1.0
+217,RC Lens,
+218,Arminia Bielefeld,
+219,FC Famalicão,
+220,Sparta Rotterdam,1.0
+221,Spezia Calcio,
+222,Rotor Volgograd,
+223,Coventry City,1.0
+224,Cádiz CF,1.0
+225,Elche CF,1.0
+226,Stade Brestois 29,1.0
+227,ESTAC Troyes,1.0
+228,SpVgg Greuther Fürth,1.0
+229,CD Santa Clara,
+230,US Salernitana 1919,1.0
+231,Venezia FC,1.0
+232,FK Khimki,
+233,FK Nizhny Novgorod,
+234,Blackpool FC,
+235,Atlético de Madrid,
