@@ -1,0 +1,1824 @@
+,Unnamed: 0,name,sofifa_id
+0,0,Ángel Di María,183898
+1,5,Sergi Darder,202648
+2,9,Rafael,216547
+3,11,Olivier Kemen,220175
+4,12,Ivan Cavaleiro,212267
+5,15,Rony Lopes,212692
+6,17,Guido Carrillo,215334
+7,18,Fabinho,209499
+8,19,Gil Dias,229453
+9,25,Lucas Ocampos,205632
+10,28,Georges-Kevin N'Koudou,Nan
+11,29,Rolando,225439
+12,30,Mauricio Isla,Nan
+13,31,Lucas Silva,247182
+14,33,Robert Beric,212023
+15,38,Pablo,198950
+16,39,Milan Gajic,Nan
+17,42,Casimir Ninga,231041
+18,44,Eric Bauthéac,Nan
+19,46,Junior Tallo,Nan
+20,50,Serhou Guirassy,215441
+21,51,Giovanni Sio,Nan
+22,54,Juan Fernando Quintero,210513
+23,64,Kolbeinn Sigthórsson,184255
+24,67,Lorik Cana,Nan
+25,70,Majeed Waris,198420
+26,71,Benjamin Moukandjo,Nan
+27,74,Somália,213556
+28,75,Mauro Goicoechea,Nan
+29,76,Christian Bekamenga,Nan
+30,77,Jemerson,215792
+31,78,Vágner Love,Nan
+32,79,Ole Selnaes,Nan
+33,81,Alexander Söderlund,201966
+34,82,Malcom,258746
+35,83,Mauro Arambarri,232665
+36,84,Kermit Erasmus,Nan
+37,90,Arturo Vidal,181872
+38,91,Douglas Costa,Nan
+39,97,Dante,158625
+40,98,Francisco Rodríguez,214319
+41,99,Carlos Ascues,Nan
+42,101,Josip Drmic,Nan
+43,106,Charles Aránguiz,199042
+44,107,Chicharito,Nan
+45,112,Ja-cheol Koo,Nan
+46,117,Matija Nastasic,205362
+47,118,Franco Di Santo,186405
+48,119,Júnior Caiçara,192427
+49,120,Pierre-Emile Höjbjerg,213648
+50,122,Gonzalo Castro,Nan
+51,124,Ju-ho Park,Nan
+52,126,Eduardo Vargas,Nan
+53,127,Fabian Schär,210047
+54,129,Pavel Kaderabek,203605
+55,131,Joelinton,223334
+56,132,Felipe Pires,226706
+57,133,Marko Maric,212973
+58,134,Antonio Colak,220785
+59,136,Lukas Hradecky,190941
+60,137,David Abraham,Nan
+61,138,Mijat Gacinovic,230564
+62,141,Ulisses Garcia,223143
+63,143,Yoshinori Muto,228717
+64,146,Jhon Córdoba,Nan
+65,149,Milos Jojic,Nan
+66,151,Frederik Sörensen,Nan
+67,154,Mevlüt Erdinc,Nan
+68,156,Uffe Bech,Nan
+69,157,Charlison Benschop,193057
+70,158,Mitchell Langerak,182435
+71,159,Toni Sunjic,201343
+72,161,Przemyslaw Tyton,176094
+73,164,Vladimir Darida,201262
+74,166,Lewis Holtby,188154
+75,171,Gotoku Sakai,207472
+76,172,Batuhan Altintas,Nan
+77,175,Örjan Nyland,185427
+78,178,Mario Vrancic,177896
+79,181,Serdar Tasci,Nan
+80,182,Bruno Henrique,216813
+81,189,Marco Fabián,Nan
+82,193,Papy Djilobodji,197937
+83,199,Filip Mladenovic,221969
+84,202,Hotaru Yamaguchi,222987
+85,209,Raúl Jiménez,204838
+86,212,Jhon Murillo,228738
+87,213,Ederson,210257
+88,214,Diego Lopes,Nan
+89,215,Giannelli Imbula,197681
+90,216,Jesús Corona,193165
+91,217,Danilo Pereira,200888
+92,218,André André,199626
+93,219,Sérgio Oliveira,198031
+94,220,Miguel Layún,178322
+95,221,Teófilo Gutiérrez,Nan
+96,222,Naldo,20801
+97,223,Ewerton,207943
+98,224,Bryan Ruíz,261505
+99,225,Alef,Nan
+100,226,Nikola Stojiljkovic,230094
+101,227,Ahmed Hassan,210259
+102,228,Crislan,Nan
+103,229,Rodrigo Pinho,229683
+104,230,Ricardo Ferreira,184139
+105,231,Arghus,Nan
+106,232,William Pottker,Nan
+107,233,Tozé,184843
+108,234,Dalbert,229148
+109,235,Henrique Dourado,215553
+110,236,Betinho,Nan
+111,237,Filip Krovinovic,230988
+112,238,Edimar,Nan
+113,239,Léo Bonatini,220685
+114,240,Luka Jovic,232432
+115,241,Alejandro Grimaldo,210035
+116,243,Hyun-jun Suk,Nan
+117,245,Sebastián Coates,197655
+118,246,Marafona,200798
+119,247,Gastón Pereiro,229636
+120,249,Héctor Moreno,173432
+121,250,Andrés Guardado,171897
+122,259,Rajko Brezancic,Nan
+123,261,Eric Botteghin,Nan
+124,264,Sheran Yeini,Nan
+125,267,Luka Zahovic,230046
+126,283,Renato Tapia,220673
+127,284,Kosuke Ota,231885
+128,286,Alexander Sörloth,216549
+129,289,Paulo Dybala,211110
+130,290,Alex Sandro,191043
+131,291,Mario Mandzukic,Nan
+132,293,Roberto Pereyra,193061
+133,294,Hernanes,Nan
+134,297,Juan Cuadrado,193082
+135,298,Andrés Tello,222573
+136,299,Mame Thiam,217007
+137,300,Joyce Anacoura,Nan
+138,304,Leandro Paredes,207439
+139,305,Víctor Ibarbo,Nan
+140,306,Mohamed Salah,209331
+141,307,Ezequiel Ponce,220715
+142,308,Nemanja Radonjic,243656
+143,309,Edin Dzeko,180930
+144,312,Iago Falque,Nan
+145,315,Norbert Gyomber,220061
+146,316,Umar Sadiq,231627
+147,317,Sergej Milinkovic-Savic,223848
+148,318,Dusan Basta,Nan
+149,319,Ricardo Kishna,Nan
+150,320,Maurício,204691
+151,321,Patric,178005
+152,322,Mario Suárez,171018
+153,323,Nikola Kalinic,185431
+154,324,Jaime Báez,Nan
+155,325,Gilberto,211567
+156,327,Jakub Blaszczykowski,164994
+157,330,Allan,199914
+158,331,Vlad Chiriches,205943
+159,334,Pepe Reina,24630
+160,339,Michael Ventre,Nan
+161,341,Diego Capel,Nan
+162,342,Cristian Ansaldi,173306
+163,344,Luis Muriel,199110
+164,345,Fernando,184134
+165,346,Ervin Zukanovic,190931
+166,347,Lucas Torreira,223959
+167,348,Alfred Duncan,208535
+168,350,Pedro Pereira,230824
+169,352,Ivan Perisic,181458
+170,354,Jeison Murillo,201377
+171,355,Felipe Melo,Nan
+172,356,Miranda,240915
+173,358,Vincenzo Tommasone,Nan
+174,359,Stevan Jovetic,181820
+175,360,Adem Ljajic,190544
+176,361,Alex Telles,212462
+177,362,Martín Montoya,194644
+178,367,Joel Obi,193337
+179,368,Danilo Avelar,Nan
+180,369,Salvador Ichazo,Nan
+181,370,Carlos Bacca,207664
+182,372,Luiz Adriano,Nan
+183,379,Matheus Cassini,Nan
+184,383,Grégoire Defrel,202851
+185,385,Giovanni Sbrissa,Nan
+186,387,Filip Helander,207555
+187,390,Lucas Castro,205633
+188,391,Paul-José Mpoku,187858
+189,397,Iván Piris,204977
+190,398,Ali Adnan,223198
+191,399,Adalberto Peñaranda,231638
+192,400,Marquinho,207865
+193,403,Jasmin Kurtic,202061
+194,404,Mauricio Pinilla,Nan
+195,405,Franck Kessié,Nan
+196,407,Isnik Alimi,Nan
+197,411,Ibrahima Mbaye,210320
+198,413,Erick Pulgar,213629
+199,425,Ivan Vargic,Nan
+200,426,Andrés Schetino,233564
+201,427,Mauro Zárate,Nan
+202,428,Tino Costa,Nan
+203,435,Tim Matavz,Nan
+204,436,Bruno Gomes,Nan
+205,437,David Milinkovic,Nan
+206,438,Milan Skriniar,232363
+207,439,Éder,210257
+208,441,Norbert Balogh,Nan
+209,442,Manuel Arteaga,Nan
+210,444,Thiago Cionek,Nan
+211,448,Nikola Ninkovic,Nan
+212,449,Ryder Matos,Nan
+213,450,Samir,162835
+214,451,Andrija Balic,Nan
+215,452,Gaspar Iñíguez,Nan
+216,453,Emil Hallfredsson,Nan
+217,461,Guillermo Cotugno,Nan
+218,464,Zé Luís,203757
+219,467,Sly,Nan
+220,469,Christian Noboa,Nan
+221,470,Ivan Maevskiy,Nan
+222,471,Darko Lazic,Nan
+223,473,Vukasin Jovanovic,Nan
+224,474,Yuri Zhirkov,Nan
+225,475,Fatos Beqiraj,Nan
+226,476,Sebastian Holmén,209063
+227,477,Emil Bergström,202060
+228,478,Mijo Caktas,232241
+229,479,Mauricio Lemos,229270
+230,480,Lorenzo Melgarejo,Nan
+231,481,Ezekiel Henty,Nan
+232,483,Milad Mohammadi,233218
+233,490,Adama Diomande,Nan
+234,497,Chris Long,216795
+235,507,Cristhian Stuani,186537
+236,508,Carlos de Pena,231012
+237,517,Piotr Malarczyk,Nan
+238,522,Tom Ince,200521
+239,528,Naby Sarr,212420
+240,532,Fernando Forestieri,178628
+241,533,Marco Matias,Nan
+242,534,Lucas João,210556
+243,537,Vincent Sasso,188538
+244,540,Jordan Botaka,Nan
+245,542,Jordy Hiwula,216322
+246,546,Jazz Richards,Nan
+247,549,Matej Vydra,198331
+248,550,Orlando Sá,Nan
+249,551,Paolo Hurtado,Nan
+250,556,Connor Goldson,199580
+251,561,Dusan Kuciak,185405
+252,565,Nasser El Khayati,Nan
+253,567,Julien de Sart,217287
+254,569,Michal Zyro,200346
+255,573,Abdoul Camara,Nan
+256,576,Luke Maxwell,Nan
+257,577,Jorge Teixeira,199674
+258,584,Jiri Skalak,Nan
+259,586,Arnold Garita,Nan
+260,588,Pedro,210514
+261,590,Asmir Begovic,172723
+262,591,Kenedy,230407
+263,592,Falcao,167397
+264,594,Nathan,210455
+265,596,Raheem Sterling,202652
+266,597,Nicolás Otamendi,192366
+267,602,Rubén Sobrino,208622
+268,603,Petr Cech,Nan
+269,609,Heung-min Son,Nan
+270,611,Clinton N'Jie,Nan
+271,614,Christian Benteke,184111
+272,615,Roberto Firmino,201942
+273,616,Nathaniel Clyne,190456
+274,617,Danny Ings,195859
+275,619,Taiwo Awoniyi,230978
+276,622,Oriol Romeu,199576
+277,623,Juanmi,197891
+278,624,Cédric Soares,Nan
+279,626,Cuco Martina,Nan
+280,631,Joselu,173608
+281,637,Ramiro Funes Mori,199667
+282,638,Gerard Deulofeu,202477
+283,641,Leandro Rodríguez,Nan
+284,643,Angelo Ogbonna,183855
+285,645,Pedro Obiang,200054
+286,646,Nikica Jelavic,Nan
+287,648,Salomón Rondón,189250
+288,653,Shinji Okazaki,194365
+289,655,Gökhan Inler,158810
+290,658,Aleksandar Mitrovic,215716
+291,660,Chancel Mbemba,210897
+292,664,Ricardo Álvarez,204555
+293,671,Idrissa Gueye,193474
+294,675,José Crespo,172685
+295,676,Tiago Ilori,205185
+296,678,Max Gradel,Nan
+297,681,Étienne Capoue,178213
+298,682,José Manuel Jurado,Nan
+299,683,Obbi Oulare,225530
+300,686,Jose Cholevas,Nan
+301,691,Anthony Cáceres,209886
+302,692,Mohamed Elneny,211454
+303,693,Marko Grujic,232099
+304,696,Oumar Niasse,Nan
+305,708,Jan Kirchhoff,Nan
+306,711,Juan Iturbe,Nan
+307,714,Steven Naismith,Nan
+308,719,Aleix Vidal,202493
+309,720,Mateo Kovacic,207410
+310,721,Danilo,199304
+311,722,Kiko Casilla,177644
+312,723,Jesús Vallejo,225161
+313,724,Marco Asensio,220834
+314,725,Lucas Vázquez,208618
+315,726,Jackson Martínez,Nan
+316,727,Stefan Savic,204639
+317,728,Yannick Carrasco,208418
+318,729,Luciano Vietto,207441
+319,730,Filipe Luís,Nan
+320,731,Matías Kranevitter,214977
+321,733,Santos Borré,220883
+322,734,Rodrigo,231866
+323,735,Álvaro Negredo,146439
+324,737,André Gomes,211575
+325,738,João Cancelo,210514
+326,739,Santi Mina,212623
+327,740,Aderllan Santos,Nan
+328,742,Yoel Rodríguez,185181
+329,743,Steven Nzonzi,Nan
+330,744,Iago Aspas,192629
+331,746,Mariano,221639
+332,747,Sergio Escudero,192679
+333,750,Roberto Soldado,146758
+334,751,Samu Castillejo,210617
+335,752,Samu García,Nan
+336,754,Denis Suárez,205192
+337,755,Víctor Ruiz,193469
+338,756,Adrián López,Nan
+339,757,Raúl García,171579
+340,759,Dejan Drazic,Nan
+341,761,Duje Cop,189536
+342,762,Charles,199042
+343,763,Gerard Moreno,208093
+344,764,Juan Carlos,194730
+345,765,Asier Illarramendi,190584
+346,766,Jonathas,Nan
+347,767,Bruma,211368
+348,768,David Concha,Nan
+349,769,Deyverson,Nan
+350,770,Ángel Trujillo,Nan
+351,771,Jefferson Lerma,213991
+352,772,Diego Mariño,199493
+353,773,Sidnei,Nan
+354,774,Lucas Pérez,199354
+355,776,Edgar Méndez,219728
+356,777,Andrés Fernández,146296
+357,778,Thievy Bifouma,Nan
+358,779,Takashi Inui,205114
+359,780,Jonathan Viera,198164
+360,781,Sergio Araujo,198145
+361,782,Alfredo Ortuño,190747
+362,783,Germán Pezzella,193601
+363,784,Petros,208224
+364,786,Joaquín,202651
+365,787,Francisco Portillo,193844
+366,789,Amro Tarek,Nan
+367,790,Augusto Fernández,Nan
+368,791,Marcelo Díaz,176930
+369,792,Federico Ricca,232437
+370,793,Miguel Cifuentes,Nan
+371,794,Óscar Duarte,212772
+372,796,Mauricio Cuero,214434
+373,797,Álvaro Pereira,Nan
+374,798,Kike García,192678
+375,800,Josip Radosevic,211671
+376,802,Jesé,202515
+377,818,Ronny Rodelin,188397
+378,819,Ismaël Diomandé,Nan
+379,821,Afonso Figueiredo,Nan
+380,822,Famara Diédhiou,223283
+381,823,Karl Toko Ekambi,224069
+382,826,Baptiste Santamaria,219792
+383,833,Tomas Hubocan,Nan
+384,835,Mariusz Stepinski,Nan
+385,836,Diego Carlos,219693
+386,839,Cafú,218623
+387,844,Jimmy Durmaz,189207
+388,849,Erick Cabaco,236331
+389,853,Gonçalo Guedes,224411
+390,854,Jorge,205498
+391,857,Gabriel Magalhães,Nan
+392,858,Júnior Alonso,Nan
+393,859,Xeka,236639
+394,863,Nordi Mukiele,226166
+395,864,Lukas Pokorny,Nan
+396,867,Mathieu Peybernes,195313
+397,869,Chang-hoon Kwon,Nan
+398,871,Renato Sanches,230767
+399,877,Raphaël Guerreiro,209889
+400,879,Marc Bartra,198141
+401,880,Mikel Merino,225193
+402,881,Aleksandar Dragovic,189060
+403,885,Danny da Costa,202429
+404,889,Lászlo Bénes,234728
+405,890,Breel Embolo,222357
+406,891,Coke,172316
+407,894,Levin Öztunali,213134
+408,897,José Rodríguez,213577
+409,899,André Ramalho,210007
+410,906,Borja Mayoral,228635
+411,907,Mario Gómez,Nan
+412,909,Filip Kostic,208574
+413,910,Douglas Santos,Nan
+414,911,Alen Halilovic,216349
+415,912,Bobby Wood,202428
+416,913,Luca Waldschmidt,220085
+417,917,Florent Hadergjonaj,220620
+418,919,Alfred Finnbogason,Nan
+419,920,Takashi Usami,191388
+420,929,Alexander Milosevic,202605
+421,931,Andrej Kramaric,216354
+422,939,Omar Mascarell,208620
+423,940,Caglar Söyüncü,232119
+424,944,Rafal Gikiewicz,194333
+425,946,Naby Keïta,220971
+426,949,Bernardo,218667
+427,953,Leon Bailey,229906
+428,955,Julio Villalba,Nan
+429,959,Marin Sverko,235800
+430,960,Yunus Malli,192565
+431,962,Paul-Georges Ntep,201533
+432,963,Victor Osimhen,232293
+433,964,Neven Subotic,Nan
+434,965,Walace,222844
+435,966,Mergim Mavraj,182713
+436,969,Patrick Banggaard,212978
+437,970,Andersson Ordóñez,236939
+438,973,Dayot Upamecano,229558
+439,974,Rafa Silva,Nan
+440,975,Franco Cervi,223061
+441,977,Guillermo Celis,214323
+442,978,André Horta,226370
+443,980,Alan Ruiz,213582
+444,981,Bruno Paulista,Nan
+445,982,Elias,221053
+446,984,Radosav Petrovic,195087
+447,985,Douglas,236499
+448,986,André,192448
+449,987,Marcelo Meli,Nan
+450,988,Felipe,207863
+451,992,Marko Bakic,Nan
+452,993,Lazar Rosic,235002
+453,994,Nelson Bonilla,Nan
+454,996,Filipe Augusto,207733
+455,997,Pedro Nuno,224538
+456,998,Tiquinho Soares,Nan
+457,999,Rafael Assis,Nan
+458,1000,Paulinho,216531
+459,1001,Carlinhos,209828
+460,1002,André Claro,Nan
+461,1003,Rafael Martins,200984
+462,1004,Rafael Batatinha,Nan
+463,1008,Mateo Cassierra,Nan
+464,1009,Davinson Sánchez,220793
+465,1010,Bertrand Traoré,207948
+466,1011,Nicolai Jörgensen,199852
+467,1013,Fred Friday,219566
+468,1021,Kevin Mayi,Nan
+469,1024,Yuki Kobayashi,232576
+470,1027,David Boysen,Nan
+471,1029,David Neres,236632
+472,1030,Hervin Ongenda,213702
+473,1034,Ognjen Gnjatic,237494
+474,1036,Bryan Cabezas,Nan
+475,1039,Ladislav Krejci,252064
+476,1042,Blerim Dzemaili,138699
+477,1044,Artur Ionita,192587
+478,1052,Simy,219496
+479,1055,Valentin Cojocaru,Nan
+480,1057,Matheus Pereira,228414
+481,1059,Kevin Diks,224841
+482,1060,Bartlomiej Dragowski,215502
+483,1062,Hrvoje Milic,Nan
+484,1063,Sebastien De Maio,Nan
+485,1064,Cristian Tello,200315
+486,1065,Sebastián Cristóforo,Nan
+487,1066,Diego Laxalt,Nan
+488,1067,Giovanni Simeone,216816
+489,1071,Santiago Gentiletti,Nan
+490,1072,João Mário,212814
+491,1073,Gabriel Barbosa,241053
+492,1076,Dodô,234112
+493,1077,Marcelo Brozovic,216352
+494,1079,Gonzalo Higuaín,167664
+495,1080,Miralem Pjanic,180206
+496,1082,Medhi Benatia,177509
+497,1083,Wallace,205970
+498,1084,Bastos,230464
+499,1085,Jordan Lukaku,207537
+500,1086,Luis Alberto,198706
+501,1087,Luiz Felipe,236355
+502,1088,Gustavo Gómez,Nan
+503,1090,José Sosa,143121
+504,1091,Mario Pasalic,223273
+505,1092,Matías Fernández,230118
+506,1093,Piotr Zielinski,210406
+507,1095,Nikola Maksimovic,215466
+508,1097,Slobodan Rajkovic,Nan
+509,1109,Alessio Di Massimo,Nan
+510,1111,Gerson,229927
+511,1112,Alisson,212831
+512,1113,Mário Rui,204614
+513,1115,Juan Jesus,200752
+514,1116,Federico Fazio,179847
+515,1117,Bruno Peres,210282
+516,1125,Salvatore Lancia,Nan
+517,1126,Bruno Fernandes,212198
+518,1128,Leandro Castán,Nan
+519,1133,Pietro Cianci,Nan
+520,1135,Sasa Lukic,236699
+521,1140,Ewandro Costa,Nan
+522,1141,Rodrigo de Paul,Nan
+523,1142,Pervis Estupiñán,237942
+524,1146,Juan Manuel Valencia,Nan
+525,1147,Bruno Petkovic,215455
+526,1148,Maxwell Acosty,Nan
+527,1158,Tomás Rincón,191053
+528,1160,Leandrinho,Nan
+529,1162,Andrés Cubas,222429
+530,1164,Emerson,247204
+531,1165,Bartosz Bereszynski,199763
+532,1166,Lorenco Simic,237594
+533,1167,Carlão,Nan
+534,1170,Jerry Mbakogu,Nan
+535,1173,Delvin N'Dinga,Nan
+536,1176,Dmitri Skopintsev,Nan
+537,1178,Rubén Rochina,188103
+538,1180,Carlos Zambrano,187132
+539,1184,Gabriel Torje,201326
+540,1186,Wílker Ángel,217082
+541,1187,Kehinde Fatai,213380
+542,1190,Giuliano,245138
+543,1191,Robert Mak,198193
+544,1196,Cristian Ramírez,Nan
+545,1197,Ari,165153
+546,1199,Michal Duris,Nan
+547,1200,Denis Popovic,Nan
+548,1205,Aleksandr Lomakin,Nan
+549,1206,Hernani,225475
+550,1216,Mohamed Diame,Nan
+551,1220,Christian Atsu,205601
+552,1222,Nélson Oliveira,189303
+553,1223,Sergi Canós,224013
+554,1227,Mile Jedinak,Nan
+555,1229,Albert Adomah,186783
+556,1230,Ritchie De Laet,175932
+557,1231,Shane Duffy,192622
+558,1240,Greg Stewart,223746
+559,1255,Jón Dadi Bödvarsson,Nan
+560,1258,Andy Lonergan,118794
+561,1261,Licá,260674
+562,1264,Roy Beerens,Nan
+563,1266,Hördur Magnússon,Nan
+564,1268,Gustav Engvall,215487
+565,1272,Jon Gorenc Stankovic,226129
+566,1273,Ragnar Sigurdsson,Nan
+567,1275,Jozabed Sánchez,210214
+568,1276,Stefan Johansen,187043
+569,1301,Danny Rowe,192481
+570,1304,Kerim Frei,204247
+571,1307,Emilio Nsue,Nan
+572,1309,Pawel Wszolek,203568
+573,1312,Luke Freeman,169078
+574,1313,Hélder Costa,221743
+575,1316,Adrian Popa,Nan
+576,1317,Milan Djuric,Nan
+577,1331,Takuma Asano,232610
+578,1335,Pau López,221087
+579,1338,Ilkay Gündogan,186942
+580,1339,Nolito,199561
+581,1340,Claudio Bravo,174543
+582,1341,Marlos Moreno,225811
+583,1342,Gero Rulli,Nan
+584,1344,Pablo Marí,206654
+585,1347,Eric Bailly,225508
+586,1350,André Ayew,Nan
+587,1361,Wilfried Bony,Nan
+588,1364,Michy Batshuayi,204529
+589,1365,David Luiz,Nan
+590,1366,Marcos Alonso,192638
+591,1367,Yannick Bolasie,189157
+592,1371,Borja Bastón,194996
+593,1372,Fernando Llorente,162131
+594,1374,Leroy Fer,186351
+595,1376,Isaac Success,222634
+596,1380,Stefano Okaka,178091
+597,1384,Allan Nyom,Nan
+598,1387,Jonathan Benteke,Nan
+599,1394,Didier Ndong,218359
+600,1396,Mika,232223
+601,1400,Jóhann Berg Gudmundsson,Nan
+602,1402,Viktor Fischer,203965
+603,1403,Antonio Barragán,169426
+604,1404,Fábio,209499
+605,1409,Wilfred Ndidi,226790
+606,1411,Gabriel Jesus,230666
+607,1414,José Fonte,171791
+608,1421,M'Baye Niang,204077
+609,1423,Luka Milivojevic,206304
+610,1429,Bryan Oviedo,198335
+611,1435,Evandro,230373
+612,1438,Paco Alcácer,200454
+613,1439,Samuel Umtiti,205600
+614,1441,Álvaro Morata,Nan
+615,1443,Nico Gaitán,Nan
+616,1444,Sime Vrsaljko,203890
+617,1445,Diogo Jota,224458
+618,1446,Axel Werner,215213
+619,1449,Alfred N'Diaye,188879
+620,1450,Cristian Espinoza,226385
+621,1452,Álvaro González,202935
+622,1453,Alexandre Pato,180175
+623,1454,Antonio Sanabria,219932
+624,1455,Felipe Gutiérrez,203796
+625,1459,Darko Brasanac,236221
+626,1460,Joaquín Correa,215330
+627,1461,Franco Vázquez,207471
+628,1462,Ganso,Nan
+629,1464,Hiroshi Kiyotake,210126
+630,1465,Gabriel Mercado,Nan
+631,1467,Pablo Sarabia,198950
+632,1468,Dani Torres,Nan
+633,1470,Alexis Ruano,Nan
+634,1471,Víctor Camarasa,219571
+635,1472,Gabriel,230666
+636,1474,Diego Rico,220414
+637,1475,Luciano,230182
+638,1476,Leo Baptistão,Nan
+639,1477,David López,201505
+640,1478,Roberto,201942
+641,1479,Álvaro Vázquez,201403
+642,1480,Javi Fuego,Nan
+643,1481,Pablo Piatti,183899
+644,1484,Nano Mesa,221452
+645,1485,Alejandro Gálvez,199487
+646,1486,Bebé,166074
+647,1487,Anaitz Arbilla,199986
+648,1488,Rubén Peña,211241
+649,1489,Pione Sisto,212196
+650,1490,José Naranjo,Nan
+651,1491,Álvaro Lemos,205551
+652,1492,Fernando Amorebieta,Nan
+653,1494,Raúl Albentosa,Nan
+654,1495,Willian José,195093
+655,1496,Keko,Nan
+656,1497,Michael Santos,230964
+657,1500,Mikel Villanueva,233329
+658,1501,Ezequiel Garay,Nan
+659,1502,Nani,139068
+660,1503,Álvaro Medrán,212476
+661,1504,Mateo García,Nan
+662,1505,Sergio León,198715
+663,1506,Fran Mérida,183520
+664,1507,Alin Tosca,233512
+665,1508,Walter Montoya,224461
+666,1509,Clément Lenglet,220440
+667,1510,Erik Morán,201991
+668,1513,Rui Silva,210385
+669,1515,Luis Hernández,Nan
+670,1516,Moussa Konaté,Nan
+671,1518,Prince Gouano,Nan
+672,1524,Jonathan Cafú,Nan
+673,1525,Otávio,210411
+674,1527,Lukas Lerager,217605
+675,1533,Baissama Sankoh,Nan
+676,1539,Pedro Rebocho,234930
+677,1540,Lebogang Phiri,213725
+678,1541,Thiago Maia,Nan
+679,1542,Luiz Araújo,234128
+680,1544,Thiago Mendes,213874
+681,1545,Edgar Ié,210520
+682,1548,Pape Cheikh,226773
+683,1549,Mariano Díaz,221639
+684,1550,Marcelo,216352
+685,1552,Marçal,207707
+686,1554,Tanguy Ndombélé,235569
+687,1555,Luiz Gustavo,185221
+688,1559,Keita Baldé,215785
+689,1564,Jordi Mboula,239441
+690,1566,Pedro Mendes,200677
+691,1568,Ciprian Tatarusanu,201325
+692,1572,Pierre Lees Melou,Nan
+693,1575,Neymar,190871
+694,1576,Yuri Berchiche,183512
+695,1578,Faitout Maouassa,230043
+696,1580,Tomas Koubek,200332
+697,1581,Brandon,212204
+698,1583,Assane Dioussé,230144
+699,1584,Gabriel Silva,197688
+700,1585,Jorginho,205498
+701,1588,Nuno Da Costa,230857
+702,1590,Stiven Mendoza,Nan
+703,1593,Oumar Solet,242238
+704,1601,James Rodríguez,Nan
+705,1604,Yvon Mvogo,206003
+706,1611,Havard Nordtveit,182888
+707,1613,Jannes Horn,231874
+708,1614,Jorge Meré,223033
+709,1615,João Queirós,Nan
+710,1617,Mathew Leckie,195033
+711,1626,Jiri Pavlenka,236583
+712,1629,Yuning Zhang,228017
+713,1631,Denis Zakaria,229261
+714,1633,Raúl Bobadilla,Nan
+715,1634,Michaël Cuisance,239744
+716,1639,Pablo Insua,207431
+717,1642,Daichi Kamada,232730
+718,1643,Jonathan de Guzmán,Nan
+719,1644,Carlos Salcedo,212888
+720,1645,Gelson Fernandes,Nan
+721,1646,Lucas Alario,215353
+722,1649,Sergio Córdova,239747
+723,1651,Kilian Jakob,236675
+724,1656,Alexandru Maxim,211061
+725,1659,Ignacio Camacho,Nan
+726,1660,Landry Dimata,231745
+727,1661,Divock Origi,213135
+728,1662,William,230168
+729,1668,Santiago Ascacíbar,232244
+730,1671,Aílton,230384
+731,1676,Manuel Akanji,229237
+732,1677,Sergio Gómez,241811
+733,1679,Vincent Koziello,225199
+734,1684,Marijan Cavar,Nan
+735,1691,João Amaral,234949
+736,1692,Mato Milos,Nan
+737,1693,Bruno Varela,219754
+738,1694,Raúl Silva,Nan
+739,1695,Fransérgio,Nan
+740,1696,Dyego Sousa,224116
+741,1697,Nikola Maras,241070
+742,1698,Jefferson,230453
+743,1699,Allano Lima,Nan
+744,1700,Matheus Índio,Nan
+745,1701,Matheus Jesus,Nan
+746,1702,Eduardo,212814
+747,1703,Ibson Melo,Nan
+748,1704,Óliver Torres,208777
+749,1705,Vaná Alves,Nan
+750,1706,Gabrielzinho,Nan
+751,1707,Marcos Acuña,224334
+752,1708,Rodrigo Battaglia,219576
+753,1709,Mattheus,Nan
+754,1711,Fábio Coentrão,Nan
+755,1712,Leonardo Ruiz,231868
+756,1713,Tomané,Nan
+757,1714,Sebastián Rincón,212156
+758,1715,Diogo Figueiras,204401
+759,1716,Andrej Lukic,Nan
+760,1717,Stephen Eustáquio,242380
+761,1718,Jonata,172018
+762,1719,Wendel,216466
+763,1720,Josip Misic,231007
+764,1721,Lumor,Nan
+765,1722,Rúben Ribeiro,182632
+766,1723,Óscar Estupiñán,228761
+767,1724,Pedro Henrique,207929
+768,1731,Luis Manuel Orejuela,Nan
+769,1734,Hirving Lozano,221992
+770,1736,Eloy Room,189084
+771,1742,Fredrik Midtsjö,198658
+772,1746,Nemanja Mihajlovic,Nan
+773,1747,Denzel Dumfries,233096
+774,1750,Jamiro Monteiro,231150
+775,1751,Dario van den Buijs,225531
+776,1753,Karim Coulibaly,Nan
+777,1754,Bartlomiej Urbanski,Nan
+778,1757,Rai Vloet,221120
+779,1758,Rasmus Kristensen,233301
+780,1759,Nicolás Tagliafico,211256
+781,1761,Maximiliano Romero,227903
+782,1764,Ondrej Mihalik,Nan
+783,1767,Josip Ilicic,200647
+784,1768,Andreas Cornelius,201943
+785,1774,Samuel Armenteros,Nan
+786,1779,Raman Chibsah,206109
+787,1783,Saphir Taider,Nan
+788,1784,César Falletti,Nan
+789,1785,Giancarlo González,Nan
+790,1787,Senna Miangue,213328
+791,1788,Paolo Faragò,211394
+792,1791,Alejandro Rodríguez,205961
+793,1793,Pawel Jaroszynski,219661
+794,1797,Aristóteles Romero,Nan
+795,1801,Vitor Hugo,226601
+796,1802,Nikola Milenkovic,238095
+797,1803,Bruno Gaspar,225402
+798,1806,Carlos Sánchez,Nan
+799,1807,Maximiliano Olivera,236382
+800,1814,Ricardo Centurión,211267
+801,1816,Thomas Rodríguez,Nan
+802,1818,Seung-woo Lee,Nan
+803,1820,Marco Fossati,Nan
+804,1822,Matías Vecino,219985
+805,1823,Borja Valero,Nan
+806,1826,Wojciech Szczesny,186153
+807,1827,Rodrigo Bentancur,227535
+808,1832,Pedro Neto,238616
+809,1833,Lucas Leiva,176266
+810,1834,Adam Marusic,224031
+811,1835,Bruno Jordão,240175
+812,1836,Felipe Caicedo,175254
+813,1839,André Silva,228941
+814,1841,Hakan Calhanoglu,208128
+815,1842,Lucas Biglia,158963
+816,1843,Mateo Musacchio,Nan
+817,1853,Gastón Ramírez,Nan
+818,1856,Duván Zapata,215333
+819,1857,Ivan Strinic,Nan
+820,1864,Pa Konate,Nan
+821,1866,Andrea Gemignani,Nan
+822,1868,Lyanco,230672
+823,1869,Álex Berenguer,225201
+824,1872,Riad Bajić,Nan
+825,1874,Antonin Barak,236791
+826,1878,Francisco Sierralta,228681
+827,1883,Cheick Diabaté,Nan
+828,1884,Nehuén Paz,219451
+829,1886,Damir Ceter,236849
+830,1889,Daniel Bessa,208144
+831,1890,Iuri Medeiros,212230
+832,1894,Martín Cáceres,182495
+833,1895,Jonathan Silva,215322
+834,1896,Pol Lirola,235875
+835,1897,Khouma Babacar,197231
+836,1900,Everton Luiz,209737
+837,1901,Vitalie Damascan,244684
+838,1903,Léo Jabá,Nan
+839,1904,Ismael Silva,213337
+840,1905,Ravanelli,Nan
+841,1907,Wanderson,Nan
+842,1908,Andrei Ivan,231726
+843,1909,Mihailo Ristic,240223
+844,1914,Zan Majer,238944
+845,1915,Pedro Rocha,Nan
+846,1916,Georgi Tigiev,Nan
+847,1918,Emiliano Rigoni,Nan
+848,1920,Denis Terentjev,Nan
+849,1922,Paul Anton,222224
+850,1923,Dostonbek Khamdamov,Nan
+851,1925,Kristijan Bistrovic,242079
+852,1928,Fedor Chernykh,Nan
+853,1931,Björn Sigurdarson,Nan
+854,1933,Lukasz Sekulski,229072
+855,1935,Ionut Nedelcearu,242614
+856,1939,Anton Zabolotny,194662
+857,1940,Kevin Stewart,206538
+858,1943,Jon Toral,Nan
+859,1944,Ondrej Mazuch,Nan
+860,1946,Martin Braithwaite,193290
+861,1955,Sone Aluko,173530
+862,1961,Rui Fonte,183518
+863,1965,Marcelo Djaló,220191
+864,1967,Samu Saiz,198143
+865,1969,Pawel Cibicki,Nan
+866,1988,Ahmed Elmohamady,Nan
+867,1993,Matty Pearson,208014
+868,1995,Stevie Mallan,225847
+869,1997,Rúben Neves,224293
+870,1998,Roderick Miranda,193143
+871,2007,Jota,224458
+872,2025,Laurens De Bock,190572
+873,2026,Yosuke Ideguchi,232623
+874,2028,Onel Hernández,202017
+875,2032,Louis Moult,194925
+876,2036,Rafa Mir,231628
+877,2037,Ben Stevenson,228638
+878,2043,Tobias Figueiredo,212231
+879,2048,Danny Drinkwater,186132
+880,2050,Juan Foyth,237221
+881,2052,Bernardo Silva,218667
+882,2053,Douglas Luiz,236499
+883,2054,Olarenwaju Kayode,211048
+884,2055,Luka Ilic,243834
+885,2059,Romelu Lukaku,192505
+886,2060,Nemanja Matic,191202
+887,2061,Victor Lindelöf,221660
+888,2062,Gylfi Sigurdsson,Nan
+889,2066,Nikola Vlasic,241095
+890,2067,Henry Onyekuru,234045
+891,2068,Sandro Ramírez,217731
+892,2072,Jay Rodríguez,169792
+893,2076,Marko Arnautovic,184200
+894,2077,Sead Haksabanovic,Nan
+895,2079,Kelechi Iheanacho,225719
+896,2080,Adrien Silva,184826
+897,2081,Vicente Iborra,189560
+898,2083,Eldin Jakupovic,52326
+899,2084,Kurt Zouma,204311
+900,2086,Jairo Riedewald,221269
+901,2087,Roque Mesa,204277
+902,2093,Richarlison,231943
+903,2096,André Carrillo,203299
+904,2098,Javier Manquillo,210972
+905,2099,José Izquierdo,219411
+906,2100,Ezequiel Schelotto,192838
+907,2102,Ales Mateju,240282
+908,2103,Mathias Normann,222404
+909,2108,Zanka,183491
+910,2112,Lucas Moura,200949
+911,2118,Alexis Sánchez,184941
+912,2121,Daniel Sturridge,171833
+913,2125,Badou Ndiaye,Nan
+914,2126,Jaroslaw Jach,223306
+915,2127,Dodi Lukebakio,231416
+916,2129,Martin Dubravka,220407
+917,2132,Theo Hernández,232656
+918,2133,Dani Ceballos,222509
+919,2134,Nélson Semedo,227928
+920,2135,Marlon,230482
+921,2136,Vitolo,199715
+922,2137,Simon Kjaer,179645
+923,2138,Guido Pizarro,207939
+924,2139,Éver Banega,178562
+925,2141,Lionel Carole,201041
+926,2142,Rúben Semedo,Nan
+927,2143,Pablo Fornals,226456
+928,2145,Diego Llorente,212602
+929,2146,Mario Hermoso,229668
+930,2147,Dídac Vilà,191055
+931,2148,Burgui,259360
+932,2150,Guillermo Maripán,219145
+933,2151,Antonio Sivera,222464
+934,2152,Rubén Duarte,226637
+935,2153,Paulo Oliveira,210679
+936,2154,Marko Dmitrovic,227290
+937,2155,Joan Jordán,224309
+938,2156,Iván Alejo,231280
+939,2157,Emanuel Cecchini,223498
+940,2159,Diego González,214770
+941,2161,Gabriel Paulista,201305
+942,2162,Neto,194404
+943,2163,Andreas Pereira,Nan
+944,2164,Fabián Orellana,Nan
+945,2166,Maxi Gómez,Nan
+946,2167,Zouhair Feddal,205705
+947,2168,Javi García,161754
+948,2169,Guilherme,180714
+949,2170,Juanfran,188135
+950,2171,Gerard Valentín,229654
+951,2173,Ezequiel Muñoz,186695
+952,2174,Tito,253841
+953,2175,Emmanuel Boateng,224540
+954,2178,Ivi López,222467
+955,2179,Oier Olazábal,183141
+956,2180,Bernardo Espinosa,186521
+957,2182,Djené,217940
+958,2183,Filip Manojlovic,Nan
+959,2184,Álvaro Jiménez,235623
+960,2185,Dani Pacheco,Nan
+961,2186,Mathí­as Olivera,Nan
+962,2187,Chuli,Nan
+963,2188,Bruno González,200228
+964,2189,Vitorino Antunes,Nan
+965,2190,Philippe Coutinho,189242
+966,2191,Yerry Mina,220523
+967,2192,Diego Costa,Nan
+968,2193,Guilherme Arana,Nan
+969,2194,Roger Martínez,219797
+970,2195,Iñigo Martínez,204525
+971,2196,Ignasi Miquel,196935
+972,2198,Robert Mazan,Nan
+973,2199,Jairo Samperio,205869
+974,2201,Choco Lozano,Nan
+975,2203,Juan Ferney Otero,224428
+976,2204,Rafal Kurzawa,221791
+977,2207,Harrison Manzala,Nan
+978,2209,Samuel Kalu,237207
+979,2210,Toma Basic,245275
+980,2218,Jonathan Ikoné,234612
+981,2219,Zeki Celik,224490
+982,2222,Lenny Pintor,240941
+983,2224,Duje Caleta-Car,225263
+984,2228,Jean-Eudes Aholou,220905
+985,2230,Pelé,194020
+986,2231,Ronaël Pierre-Gabriel,231685
+987,2236,Junior Sambia,223570
+988,2237,Facundo Píriz,213325
+989,2238,Anthony Limbombe,201938
+990,2239,Lucas Evangelista,Nan
+991,2246,Kylian Mbappé,231747
+992,2248,Juan Bernat,205069
+993,2252,Jordan Siebatcheu,227558
+994,2257,Stefan Mitrovic,209547
+995,2260,Firmin Mubele,Nan
+996,2265,Elhadji Pape Diaw,Nan
+997,2271,Cesc Fàbregas,162895
+998,2272,Lyle Foster,Nan
+999,2273,Mathías Suárez,246387
+1000,2275,Gen Shoji,232869
+1001,2281,Kasim Adams,225673
+1002,2287,Matheus Cunha,240243
+1003,2288,Marcelo Saracchi,240976
+1004,2289,Pablo Maffeo,221342
+1005,2290,Nicolás González,240690
+1006,2294,Evan N'Dicka,Nan
+1007,2295,Lucas Torró,208137
+1008,2296,Gonçalo Paciência,216452
+1009,2297,Frederik Rönnow,201269
+1010,2298,Ante Rebic,220018
+1011,2299,Chico Geraldes,Nan
+1012,2306,Yuya Osako,191565
+1013,2309,Nuri Sahin,Nan
+1014,2311,Jan-Niklas Beste,Nan
+1015,2313,Genki Haraguchi,217648
+1016,2317,Aarón Martín,236295
+1017,2329,Yuya Kubo,217242
+1018,2333,Lucas Ribeiro,Nan
+1019,2334,Leonardo Balerdi,242835
+1020,2338,Ozan Kabak,239890
+1021,2340,Tuta,247182
+1022,2346,Éder Militão,240130
+1023,2347,João Pedro,210514
+1024,2349,Yordan Osorio,237297
+1025,2350,Rafa Soares,218936
+1026,2351,Raphinha,233419
+1027,2354,Nicolás Castillo,Nan
+1028,2355,Germán Conti,Nan
+1029,2356,Alfa Semedo,239641
+1030,2357,Odysseas Vlachodimos,Nan
+1031,2358,Chiquinho,243686
+1032,2359,Bruno Viana,Nan
+1033,2360,João Novais,229406
+1034,2361,Murilo de Souza,225696
+1035,2362,João Carlos Teixeira,Nan
+1036,2363,Davidson,237135
+1037,2364,Alexandre Guedes,238830
+1038,2365,Marcão,234426
+1039,2367,Aleksandar Palocevic,244582
+1040,2368,Fernando Andrade,243591
+1041,2370,Cristian Borja,227153
+1042,2371,Luiz Phellype,211461
+1043,2372,Rochinha,222461
+1044,2374,Aylton Boa Morte,239186
+1045,2375,Costinha,230278
+1046,2376,Steven Petkov,Nan
+1047,2378,Sardor Rashidov,Nan
+1048,2379,Björn Johnsen,235320
+1049,2380,Albert Gudmundsson,Nan
+1050,2384,Dusan Tadic,199434
+1051,2385,Hassane Bandé,Nan
+1052,2387,Luis Sinisterra,233500
+1053,2389,Ritsu Doan,232639
+1054,2392,Rodney Kongolo,223962
+1055,2400,Érick Gutiérrez,220854
+1056,2401,Angeliño,220651
+1057,2402,Ryan Thomas,220763
+1058,2406,Hilary Gong,244235
+1059,2407,Matus Bero,235297
+1060,2418,Matteo Salvi,Nan
+1061,2419,Lukasz Skorupski,189908
+1062,2421,Federico Santander,201335
+1063,2423,Felipe Avenatti,219988
+1064,2428,Strahinja Tanasijevic,Nan
+1065,2431,Samuel Mraz,Nan
+1066,2432,Jacob Rasmussen,234827
+1067,2436,David Hancko,247103
+1068,2437,Christian Nörgaard,210697
+1069,2438,Dusan Vlahovic,246430
+1070,2440,Joel Campbell,204713
+1071,2447,Krzysztof Piatek,223113
+1072,2448,Cristian Romero,232488
+1073,2449,Claudio Spinelli,Nan
+1074,2450,Sandro,191043
+1075,2453,Lautaro Martínez,231478
+1076,2456,Cristiano Ronaldo,20801
+1077,2462,Fabián Ruiz,226271
+1078,2463,Carlos Vinícius,244621
+1079,2464,Fabio Ceravolo,Nan
+1080,2465,Leo Stulac,240095
+1081,2466,Jonathan Biabiany,Nan
+1082,2468,Javier Pastore,191180
+1083,2471,Ante Coric,229594
+1084,2474,Daniel Fuzato,244363
+1085,2476,Ronaldo Vieira,233943
+1086,2477,Emil Audero,228413
+1087,2478,Júnior Tavares,Nan
+1088,2487,Alfred Gomis,201976
+1089,2489,Bremer,239580
+1090,2490,Ola Aina,224656
+1091,2491,Erick Ferigra,245689
+1092,2493,Felipe Vizeu,233299
+1093,2494,Juan Musso,214979
+1094,2495,Lukasz Teodorczyk,201013
+1095,2497,Petar Micin,245023
+1096,2499,Roger Ibañez,247257
+1097,2500,Filip Bradaric,241670
+1098,2501,Sebastian Walukiewicz,243497
+1099,2504,Diego Farias,189485
+1100,2505,Szymon Zurkowski,239732
+1101,2506,Ivan Radovanovic,186589
+1102,2507,Jandrei,Nan
+1103,2508,Filip Jagiello,Nan
+1104,2511,Tiago Casasola,Nan
+1105,2512,Lucas Paquetá,233927
+1106,2513,Gabriel Brazão,244364
+1107,2514,Alessandro Minelli,Nan
+1108,2515,Erasmo Mulè,Nan
+1109,2518,Marko Jankovic,Nan
+1110,2520,Zoran Nizic,Nan
+1111,2521,Aleksandr Sheplyakov,Nan
+1112,2524,Miguel Cardoso,224890
+1113,2525,Christian Cueva,214692
+1114,2526,Uros Spajic,Nan
+1115,2527,Dmitri Stotskiy,Nan
+1116,2528,Jon Gudni Fjóluson,Nan
+1117,2530,Danijel Miskic,Nan
+1118,2531,Andrea Chukanov,Nan
+1119,2532,Vidar Örn Kjartansson,Nan
+1120,2533,Dennis Hadzikadunic,Nan
+1121,2537,Filip Uremovic,Nan
+1122,2541,Lovro Bizjak,Nan
+1123,2542,Olivier Thill,Nan
+1124,2543,Danil Krugovoy,Nan
+1125,2545,Arnór Sigurdsson,Nan
+1126,2546,Takuma Nishimura,232479
+1127,2549,Rodrigo Becão,238621
+1128,2550,Damian Szymanski,223779
+1129,2552,Anton Zinkovskiy,Nan
+1130,2554,Khvicha Kvaratskhelia,Nan
+1131,2555,Saveli Kozlov,Nan
+1132,2557,Danil Glebov,Nan
+1133,2558,Vladislav Panteleev,Nan
+1134,2559,Ayrton Lucas,231355
+1135,2562,Andrés Vombergar,247143
+1136,2563,Wilmar Barrios,Nan
+1137,2564,Yaroslav Rakitskiy,Nan
+1138,2578,Graham Burke,183544
+1139,2579,Ezri Konsa,227678
+1140,2581,Saïd Benrahma,220621
+1141,2585,Mo Eisa,239611
+1142,2591,João Carvalho,231391
+1143,2592,El Arbi Hillel Soudani,Nan
+1144,2605,Lovre Kalinic,220932
+1145,2608,Mateusz Bogusz,247351
+1146,2613,Fred,226790
+1147,2614,Diogo Dalot,234574
+1148,2615,Kepa,206585
+1149,2617,Sokratis,172879
+1150,2618,Mattéo Guendouzi,236496
+1151,2620,Ricardo Pereira,210243
+1152,2621,Filip Benkovic,244269
+1153,2626,Felipe Anderson,201995
+1154,2628,Lukasz Fabianski,164835
+1155,2629,Fabián Balbuena,Nan
+1156,2630,Xande Silva,228768
+1157,2634,Marc Navarro,Nan
+1158,2638,Percy Tau,Nan
+1159,2639,Anders Dreyer,Nan
+1160,2640,Peter Gwargis,245397
+1161,2641,Billy Arce,245231
+1162,2642,Leo Östigard,238516
+1163,2644,Mohamed Elyounoussi,203362
+1164,2647,Rui Patrício,178005
+1165,2648,João Moutinho,162347
+1166,2649,Rúben Vinagre,235172
+1167,2652,Bobby Reid,Nan
+1168,2654,André Zambo Anguissa,Nan
+1169,2656,Fabri,215160
+1170,2658,Ko Itakura,233152
+1171,2660,Miguel Almirón,230977
+1172,2663,Filip Stuparevic,Nan
+1173,2666,Tudor Baluta,243019
+1174,2667,Karlan Grant,225668
+1175,2668,Jonny Otto,Nan
+1176,2669,Ryan Babel,157301
+1177,2670,Ander Capa,216189
+1178,2671,Cristian Ganea,Nan
+1179,2672,Rodri,231866
+1180,2673,Gelson Martins,227055
+1181,2674,Santiago Arias,204259
+1182,2675,Nehuén Pérez,244206
+1183,2676,Antonio Adán,178086
+1184,2678,José Manuel Arnáiz,231530
+1185,2679,Recio,201893
+1186,2680,Diego Rolán,213114
+1187,2681,Kenneth Omeruo,207624
+1188,2682,Óscar Rodríguez,239335
+1189,2683,Josua Mejías,Nan
+1190,2687,Tomás Pina,198368
+1191,2688,Ximo Navarro,198023
+1192,2689,Eraldo Cinari,Nan
+1193,2690,Arthur,230658
+1194,2691,Nemanja Maksimovic,239433
+1195,2692,David Soria,223952
+1196,2693,Leandro Cabrera,192816
+1197,2694,Marc Muniesa,Nan
+1198,2695,Johan Mojica,214026
+1199,2696,Jairo Izquierdo,224584
+1200,2697,Nikola Vukcevic,221016
+1201,2699,Moses Simon,216820
+1202,2700,Aitor Fernández,193314
+1203,2701,Fran Beltrán,235997
+1204,2702,Néstor Araújo,192041
+1205,2703,Okay Yokuslu,205201
+1206,2705,Borja Iglesias,224179
+1207,2706,William Carvalho,207566
+1208,2707,Vinícius Júnior,Nan
+1209,2709,Álvaro Odriozola,234035
+1210,2711,Sergio Álvarez,199158
+1211,2712,Pablo de Blasis,210950
+1212,2713,Quincy Promes,208808
+1213,2715,Tomas Vaclík,204120
+1214,2716,Sergi Gómez,199577
+1215,2718,Uros Racic,244253
+1216,2721,Aleksandar Jovanovic,213327
+1217,2722,Dani Escriche,240922
+1218,2723,Álvaro García,216447
+1219,2724,José Pozo,Nan
+1220,2725,Jordi Amat,198198
+1221,2726,Raúl de Tomás,210315
+1222,2727,Alberto García,235999
+1223,2728,Luis Advíncula,204539
+1224,2729,Joaquín Fernández,202651
+1225,2730,Rubén Alcaraz,229788
+1226,2731,Fede San Emeterio,Nan
+1227,2732,Ibai Gómez,Nan
+1228,2736,Gabriel Fernández,251611
+1229,2738,Lei Wu,221445
+1230,2739,Diego Lainez,237995
+1231,2740,Brahim Díaz,231410
+1232,2741,Munir El Haddadi,220253
+1233,2742,Enric Gallego,243993
+1234,2743,Javi Galán,231591
+1235,2745,Sergi Guardiola,229624
+1236,2746,Stiven Plaza,246203
+1237,2747,Álvaro Aguado,242336
+1238,2748,Jack Lahne,241650
+1239,2750,Ulrick Eneme Ella,Nan
+1240,2751,Aurélien Chedjou,Nan
+1241,2755,Danijel Petkovic,240212
+1242,2757,Ui-jo Hwang,Nan
+1243,2758,Jean-Kevin Duverne,229705
+1244,2764,Bruno Ecuele Manga,188270
+1245,2765,Ngonda Muzinga,Nan
+1246,2766,Yusuf Yazici,231887
+1247,2769,Domagoj Bradaric,252000
+1248,2770,Léo Jardim,226085
+1249,2771,Tiago Djaló,252339
+1250,2772,Reinildo Mandava,Nan
+1251,2773,Show,263998
+1252,2776,Jean Lucas,251217
+1253,2777,Darío Benedetto,215061
+1254,2781,Habib Maïga,236817
+1255,2785,Haris Duljevic,240342
+1256,2799,Stanley Nsoki,241941
+1257,2800,Hicham Boudaoui,253157
+1258,2801,Keylor Navas,193041
+1259,2802,Predrag Rajkovic,241727
+1260,2808,Sergi Palencia,228321
+1261,2810,Miguel Trauco,225706
+1262,2812,Sanjin Prcic,206167
+1263,2814,Agustín Rogel,252074
+1264,2817,Bruno Guimarães,247851
+1265,2818,Tino Kadewere,230717
+1266,2819,Camilo,212067
+1267,2824,Strahinja Pavlovic,254840
+1268,2825,Jean Marcelin,Nan
+1269,2826,Radoslaw Majecki,235413
+1270,2830,Lucas Hernández,220814
+1271,2832,Fiete Arp,239981
+1272,2836,Luan Cândido,Nan
+1273,2844,João Victor,191294
+1274,2845,Paulo Otávio,208001
+1275,2847,Dejan Joveljic,251105
+1276,2850,Diadié Samassékou,235424
+1277,2853,Nana Ampomah,235103
+1278,2859,Luca Itter,237024
+1279,2860,Woo-yeong Jeong,Nan
+1280,2861,Iago,189509
+1281,2863,Carlos Gruezo,221860
+1282,2864,Noah Sarenren Bazee,Nan
+1283,2869,Birger Verstraete,210831
+1284,2871,Rifet Kapic,Nan
+1285,2878,Dani Olmo,244260
+1286,2879,Edmond Tapsoba,247263
+1287,2880,Exequiel Palacios,231521
+1288,2881,Marin Pongracic,238370
+1289,2883,Munas Dabbur,208498
+1290,2884,Samúel Fridjónsson,Nan
+1291,2885,Jhonder Cádiz,229319
+1292,2886,Shoya Nakajima,232862
+1293,2887,Mateus Uribe,214047
+1294,2888,Agustín Marchesín,201095
+1295,2889,Mamadou Loum,245021
+1296,2890,Luis Díaz,241084
+1297,2892,Iván Marcano,173521
+1298,2893,Rafael Camacho,243055
+1299,2895,Eduardo Henrique,229882
+1300,2896,Galeno,239482
+1301,2897,Vítor Tormena,246098
+1302,2898,Caju,244472
+1303,2899,Bruno Duarte,252830
+1304,2900,Aziz,189127
+1305,2901,Carlos Mané,216749
+1306,2904,Filipe Soares,252139
+1307,2905,Luiz Henrique,Nan
+1308,2907,Bogdan Mladenovic,Nan
+1309,2909,Bruno,212198
+1310,2910,Andraz Sporar,231786
+1311,2911,Bruno Wilson,236924
+1312,2912,Adriano Castanheira,Nan
+1313,2913,Edson Álvarez,235844
+1314,2914,Razvan Marin,235813
+1315,2921,Marcos Senesi,236506
+1316,2930,Olivier Boscagli,225863
+1317,2931,Vaclav Cerny,216860
+1318,2932,Adrián Dalmau,231601
+1319,2933,Tomas Hajek,244786
+1320,2934,Peniel Mlapa,Nan
+1321,2936,Hakon Evjen,242162
+1322,2937,Robert Bozenik,255409
+1323,2940,Sondre Tronstad,212099
+1324,2942,Takehiro Tomiyasu,232938
+1325,2943,Nicolás Domínguez,237819
+1326,2947,Gary Medel,193532
+1327,2950,Jaromir Zmrhal,Nan
+1328,2952,Jhon Chancellor,Nan
+1329,2955,Nahitan Nández,230965
+1330,2956,Christian Oliva,247076
+1331,2958,Aleksa Terzic,252573
+1332,2960,Riccardo Baroni,Nan
+1333,2961,Ionut Radu,Nan
+1334,2962,Nicholas Rizzo,Nan
+1335,2963,Kevin Agudelo,243253
+1336,2964,Lasse Schöne,172143
+1337,2966,Pawel Dawidowicz,213404
+1338,2971,Emmanuel Badu,Nan
+1339,2973,Davide Faraoni,195272
+1340,2974,Mattia Chiesa,Nan
+1341,2976,Eddie Salcedo,241410
+1342,2983,Jony,222943
+1343,2987,Cedric Gondo,Nan
+1344,2988,Romario Benzar,235814
+1345,2989,Brayan Vera,246300
+1346,2990,Cristian Dell'Orco,Nan
+1347,2992,Rafael Leão,241721
+1348,2994,Léo Duarte,233926
+1349,2995,Rade Krunic,229758
+1350,3000,David Ospina,176550
+1351,3002,Eugenio D'Ursi,Nan
+1352,3003,Michael Folorunsho,Nan
+1353,3004,Andrea Adorante,Nan
+1354,3005,José Machín,230817
+1355,3006,Fabian Pavone,Nan
+1356,3007,Alessandro Martella,Nan
+1357,3008,Walid Cheddira,Nan
+1358,3011,Mert Cetin,240671
+1359,3015,Mehdi Léris,Nan
+1360,3019,Alessandro Russo,Nan
+1361,3021,Rogério,241629
+1362,3025,Georgios Kyriakopoulos,Nan
+1363,3028,Igor,148119
+1364,3029,Mohamed Fares,226356
+1365,3031,Koffi Djidji,203884
+1366,3032,Cristo,192074
+1367,3033,Bosko Sutalo,255891
+1368,3035,Simon Skrabb,Nan
+1369,3039,Christian Eriksen,190460
+1370,3046,Gonzalo Villar,244393
+1371,3047,Carles Pérez,240654
+1372,3048,Aleksey Sutormin,Nan
+1373,3050,Dmitri Zhivoglyadov,Nan
+1374,3051,Murilo Cerqueira,240115
+1375,3052,Luka Djordjevic,Nan
+1376,3053,Tonny Vilhena,Nan
+1377,3055,Kaio,230374
+1378,3059,Cédric Gogoua,Nan
+1379,3060,Lucas Santos,251775
+1380,3061,Zvonimir Sarlija,251343
+1381,3063,Alex Kral,247028
+1382,3065,Goran Causic,Nan
+1383,3067,Lameck Banda,Nan
+1384,3068,Kings Kangwa,Nan
+1385,3069,Adi Gotlieb,Nan
+1386,3070,Andrey Klimovich,Nan
+1387,3072,Joel Fameyeh,Nan
+1388,3075,Aleksandr Melikhov,Nan
+1389,3077,Nikolay Poyarkov,Nan
+1390,3078,Dmitri Chistyakov,Nan
+1391,3079,Aleksandr Saplinov,Nan
+1392,3080,Aleksandr Dolgov,Nan
+1393,3081,Danila Proshlyakov,Nan
+1394,3082,Danila Vedernikov,Nan
+1395,3083,Rafal Augustyniak,Nan
+1396,3084,Artem Mamin,Nan
+1397,3085,Silvije Begic,Nan
+1398,3088,Sebastian Szymanski,235973
+1399,3089,Igor Kalinin,Nan
+1400,3091,Vitali Lystsov,Nan
+1401,3092,Dmitri Molchanov,Nan
+1402,3093,Daniil Fomin,261529
+1403,3094,Dmitri Poloz,Nan
+1404,3099,Vladimir Iljin,Nan
+1405,3100,Maksim Nenakhov,Nan
+1406,3101,Maksim Osipenko,265392
+1407,3103,Ivan Ignatjev,Nan
+1408,3104,Darko Jevtic,208160
+1409,3105,Denis Makarov,Nan
+1410,3107,Pablo Santos,239872
+1411,3108,Ilya Samoshnikov,Nan
+1412,3110,Safa Hadi,Nan
+1413,3112,Gamid Agalarov,Nan
+1414,3113,Erik Vardanyan,Nan
+1415,3114,Robert Glatzel,236533
+1416,3119,Kenneth Zohore,198641
+1417,3120,Romaine Sawyers,192495
+1418,3122,Semi Ajayi,207952
+1419,3126,Tomas Kalas,201122
+1420,3135,Chema,219777
+1421,3138,David Raya,220901
+1422,3139,Joel Valencia,203249
+1423,3148,Ivan Sunjic,244271
+1424,3149,Álvaro Giménez,189661
+1425,3150,Dan Crowley,Nan
+1426,3157,George Puscas,225652
+1427,3166,Toby Sibbick,236244
+1428,3167,Mike Bähre,Nan
+1429,3168,Macauley Bonne,213634
+1430,3170,Gaëtan Bong,177766
+1431,3171,Halil Dervisoglu,Nan
+1432,3173,Tariqe Fosu,216483
+1433,3178,Pedro Porro,243576
+1434,3180,Ryotaro Meshino,237435
+1435,3182,Ryan Sessegnon,235883
+1436,3186,Gabriel Martinelli,251566
+1437,3189,Renat Dadashov,238736
+1438,3191,Moise Kean,236610
+1439,3192,Ayoze Pérez,215590
+1440,3194,Gonçalo Cardoso,245226
+1441,3197,Arnaut Danjuma,236276
+1442,3211,Wesley,248695
+1443,3214,Trezeguet,226078
+1444,3217,Takumi Minamino,226627
+1445,3219,Gedson Fernandes,234568
+1446,3220,Daniel Podence,226766
+1447,3224,Tomas Soucek,236792
+1448,3231,Mbwana Samatta,Nan
+1449,3234,Júnior Firpo,241184
+1450,3235,Marc Cucurella,239231
+1451,3236,João Félix,242444
+1452,3237,Marcos Llorente,226161
+1453,3238,Renan Lodi,251573
+1454,3239,Ivan Saponjic,232207
+1455,3241,Rodrygo,243812
+1456,3242,Alberto Soro,243016
+1457,3245,Thierry Correia,247832
+1458,3246,Manu Vallejo,241686
+1459,3247,Jorge Sáenz,225106
+1460,3250,Fernando Reges,184134
+1461,3251,Yan Brice,234789
+1462,3252,Portu,205070
+1463,3254,Nacho Monreal,177604
+1464,3255,Matías Vargas,228819
+1465,3256,Fernando Calero,240289
+1466,3257,Ramón Miérez,Nan
+1467,3258,Luis Rioja,224415
+1468,3259,Pere Pons,211706
+1469,3260,Edu Expósito,229862
+1470,3261,Quique,189857
+1471,3262,Pedro Bigas,206222
+1472,3263,Roberto Olabe,238225
+1473,3264,Juan Muñoz,224045
+1474,3265,Roberto Rosales,Nan
+1475,3266,Fede Varela,Nan
+1476,3268,Álex Moreno,217036
+1477,3269,Dani Martín,241119
+1478,3270,Javi Ontiveros,Nan
+1479,3271,Raúl Albiol,157481
+1480,3272,Moi Gómez,206590
+1481,3273,Rúben Vezo,215399
+1482,3274,Gonzalo Melero,227508
+1483,3275,Pablo Hervías,204526
+1484,3277,Rafinha,201400
+1485,3278,Rubén García,211022
+1486,3279,Chimy Ávila,Nan
+1487,3280,Marc Cardona,236393
+1488,3281,Rober Ibáñez,219652
+1489,3282,Facundo Roncaglia,Nan
+1490,3283,Darwin Machís,210463
+1491,3284,Domingos Duarte,234835
+1492,3285,Fede Vico,204346
+1493,3287,Igor Zlatanovic,Nan
+1494,3288,Reinier,254544
+1495,3289,Adrián Embarba,219953
+1496,3291,Sekou Gassama,245550
+1497,3292,Antoñín,236791
+1498,3294,Mauro Icardi,201399
+1499,3295,Sergio Rico,206652
+1500,3297,Luis Henrique,256632
+1501,3300,Jonathan David,243630
+1502,3303,Robson Bambu,256343
+1503,3311,Stephy Mavididi,225783
+1504,3313,Béni Makouana,263014
+1505,3314,Habib Diallo,225293
+1506,3316,Caio Henrique,232440
+1507,3318,Florentino,234569
+1508,3320,Heriberto Tavares,243270
+1509,3323,Kiki Kouyaté,Nan
+1510,3324,Vagner,230498
+1511,3327,Roger Assalé,226060
+1512,3328,Saturnin Allagbé,218298
+1513,3329,Alexandru Dobre,Nan
+1514,3333,Karim Aribi,259154
+1515,3334,Adrian Grbic,239432
+1516,3335,Terem Moffi,255000
+1517,3337,Stéphane Diarra,233373
+1518,3340,Ignatius Ganago,241130
+1519,3341,Facundo Medina,236804
+1520,3342,Franco Tongya,260778
+1521,3345,Yvan Neyou,237626
+1522,3346,Marc Roca,235945
+1523,3348,Hee-chan Hwang,Nan
+1524,3349,Josep Martínez,243311
+1525,3350,Lazar Samardzic,256115
+1526,3352,Ridle Baku,240709
+1527,3353,Bartosz Bialek,254267
+1528,3355,Ermedin Demirovic,238900
+1529,3360,Omar Alderete,240359
+1530,3361,Luca Kilian,248878
+1531,3363,Dimitrios Limnios,Nan
+1532,3364,Tolu Arokodare,Nan
+1533,3366,Frederik Winther,243284
+1534,3369,Wataru Endo,232487
+1535,3371,Kouadio Koné,Nan
+1536,3372,Joe Scally,243133
+1537,3373,Jeremie Frimpong,253149
+1538,3374,Timothy Fosu-Mensah,232270
+1539,3377,Emmanuel Dennis,239015
+1540,3378,Darwin Núñez,253072
+1541,3379,Éverton,230225
+1542,3380,Pedrinho,255472
+1543,3381,Helton Leite,213951
+1544,3382,Reggie Cannon,237000
+1545,3383,Alberth Elis,236245
+1546,3384,Jackson Porozo,260740
+1547,3385,Abel Ruiz,239250
+1548,3386,Lukas Hornicek,258936
+1549,3388,Iván Jaime,246070
+1550,3389,Dani Morer,Nan
+1551,3390,Joaquín Pereyra,233092
+1552,3391,Vladan Danilovic,Nan
+1553,3392,Dor Jan,Nan
+1554,3393,Evanilson,256612
+1555,3397,Pedro Gonçalves,240950
+1556,3398,Nuno Santos,227890
+1557,3399,Tabata,238858
+1558,3400,Naoufel Khacef,258598
+1559,3401,Matous Trmal,257827
+1560,3403,Jorge Fernandes,242359
+1561,3404,Lucas Veríssimo,235688
+1562,3405,Manuel Ugarte,253306
+1563,3406,Antony,255475
+1564,3410,Simon Tibbling,207559
+1565,3411,Francesco Antonucci,237393
+1566,3413,Christian Conteh,248765
+1567,3416,Jörgen Strand Larsen,238756
+1568,3420,Pawel Bochniewicz,220230
+1569,3421,Stanislav Shopov,259237
+1570,3423,Mateo Les,258945
+1571,3432,Tibor Halilovic,239200
+1572,3436,Simone Muratore,257195
+1573,3439,Edoardo Vergani,264451
+1574,3441,Zito Luvumbo,Nan
+1575,3444,Milos Vulic,258632
+1576,3448,Gabriel Charpentier,Nan
+1577,3449,Giuseppe Caso,Nan
+1578,3452,Bruno Amione,Nan
+1579,3456,Achraf Hakimi,235212
+1580,3464,Pierre Kalulu,255654
+1581,3466,Valentin Mihăilă,248060
+1582,3469,Juan Brunetta,235947
+1583,3474,Erik Gerbi,Nan
+1584,3475,Matteo Stoppa,Nan
+1585,3477,Vlad Chiricheș,205943
+1586,3479,Lukas Haraslin,227562
+1587,3480,Nicolás Schiappacasse,Nan
+1588,3484,Léo Sena,235108
+1589,3490,Joakim Maehle,234678
+1590,3492,Adolfo Gaich,245437
+1591,3493,Valentin Antov,Nan
+1592,3495,Manolo Portanova,259331
+1593,3496,Elia Petrelli,Nan
+1594,3503,Vitali Lisakovich,Nan
+1595,3505,Bruno Fuchs,258370
+1596,3510,David Tosevski,264470
+1597,3511,Kento Hashimoto,Nan
+1598,3512,Aleksandr Pavlovets,Nan
+1599,3513,Konstantin Kovalev,Nan
+1600,3515,Daniil Lesovoy,Nan
+1601,3516,Ivan Budachev,Nan
+1602,3517,Artem Golubev,Nan
+1603,3519,Vladislav Kamilov,Nan
+1604,3520,In-beom Hwang,Nan
+1605,3522,Branko Jovicic,Nan
+1606,3523,David Karaev,Nan
+1607,3524,Danil Prutsev,Nan
+1608,3525,Marko Dugandzic,Nan
+1609,3526,Miroslav Bogosavac,Nan
+1610,3527,Artem Polyarus,Nan
+1611,3528,Josip Condric,Nan
+1612,3529,Ilya Berkovskiy,Nan
+1613,3530,Leo Goglichidze,Nan
+1614,3531,Tomas Rukas,Nan
+1615,3533,Leon Musaev,Nan
+1616,3534,Ramazan Gadzhimuradov,Nan
+1617,3535,Artem Maksimenko,Nan
+1618,3537,Gabriel Iancu,Nan
+1619,3538,Igor Obukhov,Nan
+1620,3541,Michal Helik,219293
+1621,3542,Neil Etheridge,193186
+1622,3546,Antonis Stergiakis,259206
+1623,3549,Kamil Jozwiak,233222
+1624,3550,Pipa,244625
+1625,3552,Przemyslaw Placheta,239439
+1626,3554,Jacob Lungi Sörensen,Nan
+1627,3560,Nikolas Ioannou,Nan
+1628,3561,Emil Riis,231616
+1629,3562,Rob Dickie,223159
+1630,3564,Ovie Ejaria,236246
+1631,3565,Dan Barlaser,Nan
+1632,3570,Dimitrios Giannoulis,Nan
+1633,3571,Ben Whiteman,225071
+1634,3573,Thomas Partey,209989
+1635,3574,Emiliano Martínez,202811
+1636,3577,Michal Karbownik,248149
+1637,3578,Andi Zeqiri,234683
+1638,3587,Niels Nkounkou,255150
+1639,3589,Tosin Adarabioyo,222104
+1640,3593,Thiago,189509
+1641,3595,Rúben Dias,239818
+1642,3596,Ferran Torres,241461
+1643,3597,Pablo Moreno,257566
+1644,3598,Nahuel Bustos,238194
+1645,3599,Yan Couto,259075
+1646,3602,Facundo Pellistri,253283
+1647,3609,Ismaila Coulibaly,246946
+1648,3611,Mohammed Salisu,244915
+1649,3612,Sergio Reguilón,245279
+1650,3616,Vladimir Coufal,244470
+1651,3617,Fábio Silva,252037
+1652,3619,Toti Gomes,Nan
+1653,3621,Moisés Caicedo,256079
+1654,3625,Filip Stevanovic,263169
+1655,3626,Amad Diallo,254088
+1656,3629,Frederik Alves,250851
+1657,3630,Trincão,244778
+1658,3631,Sergiño Dest,251804
+1659,3632,Matheus Fernandes,Nan
+1660,3633,Ivo Grbic,258390
+1661,3634,Suso,202651
+1662,3635,Bono,226786
+1663,3636,Ivan Rakitic,168651
+1664,3637,Jorge Cuenca,237522
+1665,3638,Takefusa Kubo,237681
+1666,3639,Luis Suárez,176580
+1667,3640,Luis Milla,242201
+1668,3642,Juan Cruz,206219
+1669,3643,Raúl Navas,198614
+1670,3644,Jorge de Frutos,243559
+1671,3645,Dani Gómez,243315
+1672,3646,Shon Weissman,251412
+1673,3647,Javi Sánchez,245238
+1674,3648,Raúl Carnero,198240
+1675,3649,Jorge Pombo,228144
+1676,3652,Damian Kadzior,211626
+1677,3653,Borja García,194761
+1678,3654,Miguel Baeza,258271
+1679,3655,Raúl Guti,225204
+1680,3656,Tete Morente,239671
+1681,3657,Papu Gómez,Nan
+1682,3658,Carlos Fernández,221014
+1683,3659,Lucas Olaza,221832
+1684,3660,Augusto Solari,212214
+1685,3661,Amadou Onana,257057
+1686,3663,Nuno Mendes,252145
+1687,3666,Luan Peres,234791
+1688,3667,Konrad de la Fuente,257025
+1689,3669,Kamaldeen Sulemana,256035
+1690,3671,Dogan Alemdar,245822
+1691,3672,Przemyslaw Frankowski,212138
+1692,3673,Deiver Machado,220837
+1693,3674,Wuilker Fariñez,228736
+1694,3675,Thuler,262908
+1695,3677,Pablo Rosario,235134
+1696,3679,Stian Gregersen,Nan
+1697,3680,Jean Onana,255934
+1698,3681,Issouf Sissokho,261306
+1699,3686,Igor Silva,242054
+1700,3689,Jere Uronen,207593
+1701,3690,Metinho,Nan
+1702,3691,Mama Baldé,237960
+1703,3693,Rominigue Kouamé,239894
+1704,3695,Mykola Kukharevych,263919
+1705,3697,Josko Gvardiol,251517
+1706,3698,Ilaix Moriba,259233
+1707,3700,Caden Clark,259249
+1708,3704,Micky van de Ven,264453
+1709,3705,Jesper Lindström,245741
+1710,3706,Igor Matanovic,259750
+1711,3711,Piero Hincapié,256197
+1712,3712,Zidan Sertdemir,Nan
+1713,3716,Keita Endo,232786
+1714,3719,Wahid Faghir,257399
+1715,3722,Naouirou Ahamada,259205
+1716,3723,Hiroki Ito,234205
+1717,3726,Silvan Widmer,216158
+1718,3727,Niklas Dorsch,231227
+1719,3732,Guilherme Ramos,262869
+1720,3733,Masaya Okugawa,239712
+1721,3741,Chidozie Awaziem,232693
+1722,3742,Seba Pérez,Nan
+1723,3743,Gaius Makouta,235570
+1724,3744,Lucas Mineiro,235782
+1725,3745,Mario González,235970
+1726,3746,Tiago Esgaio,251994
+1727,3747,Pepê,120533
+1728,3748,Wendell,216466
+1729,3749,Bruno Costa,244960
+1730,3750,Fábio Cardoso,213917
+1731,3751,Mohammad Mohebi,264425
+1732,3752,Andrei Chindris,248004
+1733,3753,Ricardo Esgaio,212213
+1734,3754,Toni Borevkovic,244377
+1735,3755,Mohamed Daramy,246459
+1736,3756,Jay Gorter,262262
+1737,3757,Peter Vindahl,231237
+1738,3759,Sam Beukema,262394
+1739,3772,Anastasios Douvikas,261478
+1740,3773,Ringo Meerveld,264452
+1741,3778,Mohamed Ihattaren,246960
+1742,3779,Kaio Jorge,260644
+1743,3780,Dimitrije Kamenovic,Nan
+1744,3781,Luka Romero,Nan
+1745,3782,Tammy Abraham,231352
+1746,3783,Matías Viña,253290
+1747,3785,Ruan,247027
+1748,3786,Maxime López,224030
+1749,3787,Abdou Harroui,241937
+1750,3788,Ivan Ilic,258683
+1751,3793,Johan Vásquez,244349
+1752,3795,Adama Soumaoro,200353
+1753,3800,Kelvin Amian,231235
+1754,3801,David Strelec,264692
+1755,3803,Jakub Kiwior,Nan
+1756,3804,Mikael Egill Ellertsson,Nan
+1757,3805,Leandro Sanca,Nan
+1758,3810,Petar Stojanovic,225995
+1759,3816,Claudinho,Nan
+1760,3820,Nair Tiknizyan,244881
+1761,3822,Kirill Zinovich,Nan
+1762,3825,Maksim Mukhin,259853
+1763,3826,Luka Gagnidze,Nan
+1764,3827,Guillermo Varela,Nan
+1765,3829,Kirill Bolshakov,Nan
+1766,3830,Artem Sokolov,Nan
+1767,3832,Kirill Bozhenov,Nan
+1768,3833,Nikita Krivtsov,Nan
+1769,3835,Kirill Kolesnichenko,Nan
+1770,3836,Ivan Galanin,Nan
+1771,3838,Sergey Pinyaev,Nan
+1772,3839,Danil Lipovoy,Nan
+1773,3841,Ibrokhimkhalil Yuldoshev,Nan
+1774,3842,Timur Suleymanov,Nan
+1775,3843,Tayo Edun,229378
+1776,3845,Rodrigo Muniz,264337
+1777,3846,Martín Payero,240970
+1778,3848,Ali McCann,243520
+1779,3851,Joël Piroe,247249
+1780,3853,Albert Sambi Lokonga,241928
+1781,3854,Nuno Tavares,251530
+1782,3855,Kristoffer Ajer,224258
+1783,3857,Frank Onyeka,239529
+1784,3858,Myles Peart-Harris,263582
+1785,3859,Álvaro Fernández,236515
+1786,3861,Abdallah Sima,259816
+1787,3862,Kaoru Mitoma,255565
+1788,3863,Maxwel Cornet,215798
+1789,3864,Nathan Collins,248484
+1790,3867,Saúl Ñíguez,208421
+1791,3869,Odsonne Edouard,233866
+1792,3871,Junior Firpo,241184
+1793,3878,Joe Willock,237329
+1794,3880,Josh Sargent,242075
+1795,3881,Valentino Livramento,Nan
+1796,3882,Emerson Royal,Nan
+1797,3883,Bryan Gil,246785
+1798,3884,Pape Sarr,Nan
+1799,3885,Imrân Louza,242794
+1800,3887,Mattie Pollock,246695
+1801,3889,José Sá,212442
+1802,3891,Bendegúz Bolla,263233
+1803,3892,Kayky,262053
+1804,3895,Gonzalo Montiel,231340
+1805,3897,Manu Morlanes,241856
+1806,3898,Luís Maximiano,244316
+1807,3899,Thiago Galhardo,203344
+1808,3900,Santiago Arzamendia,248053
+1809,3901,Tomás Alarcón,235824
+1810,3902,Álvaro Vadillo,204830
+1811,3903,Miguelón,231749
+1812,3904,Jonás Ramalho,189576
+1813,3905,Enric Franquesa,252146
+1814,3906,Marcos André,252084
+1815,3907,Giorgi Mamardashvili,262621
+1816,3908,Carles Aleñá,233113
+1817,3909,Mamadou Sylla,224967
+1818,3910,Iván Marcone,215057
+1819,3911,Lucas Boyé,222041
+1820,3912,Matthew Hoppe,259751
+1821,3913,Dominik Greif,263139
+1822,3914,Fran García,246606
