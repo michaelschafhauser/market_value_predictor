@@ -46,21 +46,23 @@ def id_scrapping(df, column_name):
     return 'CSV generated'
 
 def text_preprocessing(df):
+    '''
+    processes the text of the dataframe to lowercase and remove accents
+    from the players names
+    '''
     df["player_name"] = df["player_name"].str.lower().str.normalize('NFKD').str.encode('ascii', errors='ignore').str.decode('utf-8')
     df.drop(df.filter(regex="Unname"), axis=1, inplace=True)
     return df
 
 
-def transfer_history_cleaning(year_from):
+def transfer_history_cleaning(transfer_history, year_from):
     '''
     cleans the transfer_history_combined csv file to only have available
     players whose transfer fee information is available
     '''
-    df = get_data('transfer_history_combined.csv')
-
     # preprocessing the player names
-    df = text_preprocessing(df)
-    df["FIFA year"] = df["year"]
+    df = text_preprocessing(transfer_history)
+    df["fifa year"] = df["year"]
 
     ## dropping NaNs in fee_cleaned
     df = df.loc[df["fee_cleaned"].notna()]
@@ -105,11 +107,13 @@ def generate_dataset1():
     # process the player_name to lower case and no accents
     features_df = text_preprocessing(features_df)
 
-    # generate the transfer history dataframe
-    transfer_df = transfer_history_cleaning()
+    # generate the transfer history dataframe since 2015
+    transfer_df = get_data('transfer_history_combined.csv')
+    transfer_df = transfer_history_cleaning(transfer_df, 2014)
 
+    #import ipdb; ipdb.set_trace()
     # merging datasets by player name and FIFA year
-    merged_df = transfer_df.merge(features_df, on=["player_name", "FIFA year"], how='inner')
+    merged_df = transfer_df.merge(features_df, on=["player_name", "fifa year"], how='inner')
 
     merged_df.to_csv('../raw_data/transfer_features_by_name.csv')
     return 'CSV created'
@@ -129,20 +133,21 @@ def generate_dataset2():
     scrapped_df = scrapped_df[scrapped_df["sofifa_id"] != "Nan"]
     # converting id's to int
     scrapped_df["sofifa_id"] = scrapped_df["sofifa_id"].astype("int64")
-    scrapped_df = text_preprocessing(scrapped_df)
-
     # rename name column
     scrapped_df =scrapped_df.rename(columns={'name': 'player_name'})
+    scrapped_df = text_preprocessing(scrapped_df)
+
 
     # getting the transfer history dataframe
-    transfer_df = transfer_history_cleaning()
-
-    # merging scrapped_id_df with transfer_df
+    transfer_df = get_data('transfer_history_combined.csv')
+    transfer_df = transfer_history_cleaning(transfer_df, 2014)
+    # merging scrapped_id_df with transfer_df by the name so as to add the sofifa_id to
+    # the transfer_df
     transfer_df = transfer_df.merge(scrapped_df, on=["player_name"], how='inner')
 
     features_df = get_data('players_combined.csv')
 
-    merged_df = transfer_df.merge(features_df, on=["sofifa_id", "FIFA year"], how='inner')
+    merged_df = transfer_df.merge(features_df, on=["sofifa_id", "fifa year"], how='inner')
 
     merged_df.to_csv('../raw_data/transfer_features_by_id.csv')
 
@@ -179,4 +184,5 @@ def join_everything():
 if __name__ == '__main__':
     # df = pd.read_csv('../raw_data/not_matching_names.csv')
     # id_scrapping(df, 'name')
+    # join_everything()
     pass
