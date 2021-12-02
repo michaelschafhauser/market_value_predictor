@@ -46,7 +46,7 @@ def id_scrapping(df, column_name):
 
     df.to_csv('../raw_data/scrapped_id.csv')
 
-    return 'CSV generated'
+    return 'CSV generated now'
 
 def text_preprocessing(df):
     '''
