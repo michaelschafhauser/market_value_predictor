@@ -6,3 +6,4 @@
 .env
 ignored_files
 *.html
+catboost_info/
