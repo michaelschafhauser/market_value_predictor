@@ -63,6 +63,6 @@ def reduce_number_of_classes(df, column_name, min_count):
     temp_df = temp_df.drop(columns="count")
 
     df = df.merge(temp_df, on=column_name,
-                              how="left").drop(columns=column_name)
+                              how="left")#.drop(columns=column_name)
 
     return df
