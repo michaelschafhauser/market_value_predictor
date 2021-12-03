@@ -216,13 +216,16 @@ def clean_master_df(df):
 
     # Deleting additional not needed columns
     df = df.drop(columns=[
-        'receiving_club', 'player_name', 'position', 'giving_club',
+        'receiving_club',
+        #'player_name',
+        'position', 'giving_club',
         'transfer_movement', 'transfer_period', 'receiving_league', 'year',
         'season'
     ])
 
     df = df.drop(columns=[
-    "sofifa_id", "long_name", "dob", "joined", "nation_position",
+    #"sofifa_id", "long_name",
+    "dob", "joined", "nation_position",
     "nation_jersey_number", "loaned_from", "contract_valid_until"
     ])
 
