@@ -18,3 +18,21 @@ def manual_encoding(df, column_name):
     df = df.drop(columns=[column_name])
 
     return df
+
+
+def cluster_team_position(df):
+    attack = ["ST", "LS", "LW", "RS", "RW", "RF", "LF", "CF"]
+    mid = [
+        "LCM", "RM", "CB", "CAM", "LM", "CM", "CDM", "RCM", "LCM", "RDM", "LDM",
+        "RAM", "LAM"
+    ]
+    defense = ["RCB", "LCB", "CB", "RB", "LB", "RWB", "LWB"]
+    goal = ["GK"]
+    sub = ["SUB", "RES"]
+
+    df["position_cluster"] = df.team_position.map(
+        lambda x: "attack" if x in attack else "mid" if x in mid else "defense"
+        if x in defense else "goal" if x in goal else "sub"
+        if x in sub else "nan")
+
+    return df
