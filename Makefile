@@ -53,3 +53,89 @@ pypi_test:
 
 pypi:
 	@twine upload dist/* -u $(PYPI_USERNAME)
+
+
+# ----------------------------------
+#      GCP integration
+# ----------------------------------
+
+# project id
+PROJECT_ID=wagon-bootcamp-328709
+
+# bucket name
+BUCKET_NAME=market_value_predictor
+
+# choose your region from https://cloud.google.com/storage/docs/locations#available_locations
+REGION=europe-west1
+
+set_project:
+	@gcloud config set project ${PROJECT_ID}
+
+create_bucket:
+	@gsutil mb -l ${REGION} -p ${PROJECT_ID} gs://${BUCKET_NAME}
+
+
+# ----------------------------------
+#      Uploading dataset to GCP
+# ----------------------------------
+
+# path to the file to upload to GCP (the path to the file should be absolute or should match the directory where the make command is ran)
+# replace with your local path to the `train_1k.csv` and make sure to put the path between quotes
+LOCAL_PATH="raw_data/master_df_with_webscraping.csv"
+
+# bucket directory in which to store the uploaded file (`data` is an arbitrary name that we choose to use)
+BUCKET_FOLDER=data
+
+# name for the uploaded file inside of the bucket (we choose not to rename the file that we upload)
+BUCKET_FILE_NAME=$(shell basename ${LOCAL_PATH})
+
+upload_data:
+	@gsutil cp ${LOCAL_PATH} gs://${BUCKET_NAME}/${BUCKET_FOLDER}/${BUCKET_FILE_NAME}
+
+
+
+##### Training  - - - - - - - - - - - - - - - - - - - - - -
+BUCKET_TRAINING_FOLDER = 'trainings'
+
+##### Machine configuration - - - - - - - - - - - - - - - -
+
+# REGION=europe-west1
+PYTHON_VERSION=3.7
+FRAMEWORK=scikit-learn
+RUNTIME_VERSION=2.2
+
+
+##### Package params  - - - - - - - - - - - - - - - - - - -
+
+PACKAGE_NAME=market_value_predictor
+FILENAME=trainer
+
+##### Job - - - - - - - - - - - - - - - - - - - - - - - - -
+
+JOB_NAME=market_value_predictor_pipeline_$(shell date +'%Y%m%d_%H%M%S')
+
+
+run_locally:
+	@python -m ${PACKAGE_NAME}.${FILENAME}
+
+gcp_submit_training:
+	gcloud ai-platform jobs submit training ${JOB_NAME} \
+		--job-dir gs://${BUCKET_NAME}/${BUCKET_TRAINING_FOLDER} \
+		--package-path ${PACKAGE_NAME} \
+		--module-name ${PACKAGE_NAME}.${FILENAME} \
+		--python-version=${PYTHON_VERSION} \
+		--runtime-version=${RUNTIME_VERSION} \
+		--region ${REGION}
+
+clean:
+	@rm -f */version.txt
+	@rm -f .coverage
+	@rm -fr */__pycache__ __pycache__
+	@rm -fr build dist *.dist-info *.egg-info
+	@rm -fr */*.pyc
+
+
+##### Prediction API - - - - - - - - - - - - - - - - - - - - - - - - -
+
+run_api:
+	uvicorn api.fast:app --reload
