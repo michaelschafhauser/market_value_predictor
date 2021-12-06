@@ -9,8 +9,9 @@ from sklearn.model_selection import train_test_split
 from termcolor import colored
 import joblib
 from market_value_predictor.gcp import storage_upload
-from sklearn.metrics import r2_score
+from sklearn.metrics import r2_score, mean_absolute_error
 import numpy as np
+from market_value_predictor.utils import usable_columns
 
 
 class Trainer:
@@ -41,10 +42,8 @@ class Trainer:
             "gk_handling",
             "gk_kicking",
             "gk_reflexes",
-            "gk_speed",
             "gk_positioning",
-            "release_clause_eur",
-        ]
+            ]
 
         self.numericals_mean_impute = []
 
@@ -89,7 +88,16 @@ class Trainer:
         )
 
         self.pipeline = Pipeline(
-            [("preprocessing", preprocessor), ("regressor", XGBRegressor())]
+            [("preprocessing", preprocessor),
+             ("regressor", XGBRegressor(
+                 gamma=87,
+                 learning_rate=0.2081503,
+                 max_depth=2,
+                 n_estimators=894,
+                 n_jobs=-1,
+                 reg_alpha=88,
+                 reg_lambda=26
+             ))]
         )
 
     def split_train_test(self, df):
@@ -108,8 +116,9 @@ class Trainer:
 
         rmse = np.sqrt(((y_pred - self.y_test) ** 2).mean())
         r2 = r2_score(self.y_test, y_pred)
+        mae = mean_absolute_error(self.y_test, y_pred)
 
-        return round(rmse, 2), round(r2, 2)
+        return round(rmse, 2), round(mae, 2), round(r2, 2)
 
     def save_model_locally(self):
         joblib.dump(self.pipeline, "model.joblib")
@@ -119,6 +128,7 @@ class Trainer:
 if __name__ == "__main__":
     # get data form GCP storage
     df = get_data_from_gcp()
+    df = df[usable_columns]
 
     # create Trainer object
     trainer = Trainer()
@@ -139,8 +149,9 @@ if __name__ == "__main__":
     trainer.run()
 
     # evaluate model
-    rmse, r2 = trainer.evaluate()
+    rmse, mae, r2 = trainer.evaluate()
     print(f"rmse: {rmse}")
+    print(f"mae: {mae}")
     print(f"r2: {r2}\n")
 
     # save model locally

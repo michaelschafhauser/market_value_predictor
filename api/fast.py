@@ -5,6 +5,7 @@ import pytz
 from datetime import datetime
 import joblib
 from predict import download_model
+from predict import get_player_features
 
 app = FastAPI()
 
@@ -23,15 +24,17 @@ def index():
 
 
 @app.get("/predict")
-def index(player_name):
-    # get player features from API
+def index():
 
-    # bring player features in required format
+    player_name=input("Please name a football player:   ")
+
+    # get player features from API
+    features = get_player_features(player_name)
 
     # load model
     model = download_model()
 
     # make prediction using loaded model
-    prediction = model.predict(df)[0]
+    prediction = model.predict(features)[0]
 
-    return {"prediction": "prediction"}
+    return {"prediction": prediction}
