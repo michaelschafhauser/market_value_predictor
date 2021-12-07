@@ -1,8 +1,8 @@
 import pandas as pd
 
+
 def manual_encoding(df, column_name):
-    df_encode = df[column_name].str.get_dummies(
-        sep=",")
+    df_encode = df[column_name].str.get_dummies(sep=",")
 
     init_cols_player_positions = list(df_encode.columns)
 
@@ -10,8 +10,9 @@ def manual_encoding(df, column_name):
     for elem in init_cols_player_positions:
         trans_cols_player_positions.append(elem.strip())
 
-    df_encode = df_encode.rename(columns=dict(
-        zip(init_cols_player_positions, trans_cols_player_positions)))
+    df_encode = df_encode.rename(
+        columns=dict(zip(init_cols_player_positions, trans_cols_player_positions))
+    )
 
     df_encode = df_encode.groupby(lambda x: x, axis=1).sum()
 
@@ -27,28 +28,47 @@ def manual_encoding(df, column_name):
 def cluster_team_position(df):
     attack = ["ST", "LS", "LW", "RS", "RW", "RF", "LF", "CF"]
     mid = [
-        "LCM", "RM", "CB", "CAM", "LM", "CM", "CDM", "RCM", "LCM", "RDM", "LDM",
-        "RAM", "LAM"
+        "LCM",
+        "RM",
+        "CB",
+        "CAM",
+        "LM",
+        "CM",
+        "CDM",
+        "RCM",
+        "LCM",
+        "RDM",
+        "LDM",
+        "RAM",
+        "LAM",
     ]
     defense = ["RCB", "LCB", "CB", "RB", "LB", "RWB", "LWB"]
     goal = ["GK"]
     sub = ["SUB", "RES"]
 
     df["position_cluster"] = df.team_position.map(
-        lambda x: "attack" if x in attack else "mid" if x in mid else "defense"
-        if x in defense else "goal" if x in goal else "sub"
-        if x in sub else "nan")
+        lambda x: "attack"
+        if x in attack
+        else "mid"
+        if x in mid
+        else "defense"
+        if x in defense
+        else "goal"
+        if x in goal
+        else "sub"
+        if x in sub
+        else "nan"
+    )
 
     return df
 
 
 def reduce_number_of_classes(df, column_name, min_count):
-    temp_df = pd.DataFrame(
-        df[column_name].value_counts()).reset_index().rename(
-            columns={
-                "index": column_name,
-                column_name: "count"
-            })
+    temp_df = (
+        pd.DataFrame(df[column_name].value_counts())
+        .reset_index()
+        .rename(columns={"index": column_name, column_name: "count"})
+    )
 
     temp_list = []
 
@@ -62,7 +82,6 @@ def reduce_number_of_classes(df, column_name, min_count):
 
     temp_df = temp_df.drop(columns="count")
 
-    df = df.merge(temp_df, on=column_name,
-                              how="left")#.drop(columns=column_name)
+    df = df.merge(temp_df, on=column_name, how="left")  # .drop(columns=column_name)
 
     return df
