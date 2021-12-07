@@ -139,3 +139,15 @@ clean:
 
 run_api:
 	uvicorn api.fast:app --reload
+
+
+##### Build docker image and push to GCP
+
+IMAGE_NAME=market_value_predictor_image
+DOCKER_IMAGE_NAME=market-value-api
+
+build_push_deploy_docker:
+	gcloud config set project ${PROJECT_ID}
+	docker build -t eu.gcr.io/${PROJECT_ID}/${DOCKER_IMAGE_NAME} .
+	docker push eu.gcr.io/${PROJECT_ID}/${DOCKER_IMAGE_NAME}
+	gcloud run deploy --image eu.gcr.io/${PROJECT_ID}/${DOCKER_IMAGE_NAME} --platform managed --region europe-west1

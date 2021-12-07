@@ -1,6 +1,6 @@
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from market_value_predictor.data import get_data_from_gcp
+from market_value_predictor.gcp import get_data_from_gcp
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
@@ -43,7 +43,7 @@ class Trainer:
             "gk_kicking",
             "gk_reflexes",
             "gk_positioning",
-            ]
+        ]
 
         self.numericals_mean_impute = []
 
@@ -62,14 +62,15 @@ class Trainer:
         )
 
         self.num_mean_tr = Pipeline(
-            [("imputer", SimpleImputer(strategy="mean")),
-            ("scaler", StandardScaler())]
+            [("imputer", SimpleImputer(strategy="mean")), ("scaler", StandardScaler())]
         )
 
-        self.cat_tr = Pipeline([
-            ("imputer", SimpleImputer(strategy="constant", fill_value="Other")),
-            ("encoder", OneHotEncoder(handle_unknown="ignore"))
-        ])
+        self.cat_tr = Pipeline(
+            [
+                ("imputer", SimpleImputer(strategy="constant", fill_value="Other")),
+                ("encoder", OneHotEncoder(handle_unknown="ignore")),
+            ]
+        )
 
         return self
 
@@ -92,16 +93,21 @@ class Trainer:
         )
 
         self.pipeline = Pipeline(
-            [("preprocessing", preprocessor),
-             ("regressor", XGBRegressor(
-                 gamma=87,
-                 learning_rate=0.2081503,
-                 max_depth=2,
-                 n_estimators=894,
-                 n_jobs=-1,
-                 reg_alpha=88,
-                 reg_lambda=26
-             ))]
+            [
+                ("preprocessing", preprocessor),
+                (
+                    "regressor",
+                    XGBRegressor(
+                        gamma=87,
+                        learning_rate=0.2081503,
+                        max_depth=2,
+                        n_estimators=894,
+                        n_jobs=-1,
+                        reg_alpha=88,
+                        reg_lambda=26,
+                    ),
+                ),
+            ]
         )
 
     def split_train_test(self, df):

@@ -1,14 +1,13 @@
+import pandas as pd
+import numpy as np
 import os
 import joblib
-from market_value_predictor.params import BUCKET_NAME
-from google.cloud import storage
+import json
 import requests
 from requests.structures import CaseInsensitiveDict
+from google.cloud import storage
+from market_value_predictor.params import BUCKET_NAME
 from market_value_predictor.utils import flatten, rename_api_feature_columns
-from market_value_predictor.data import get_matching_tables_from_gcp
-import pandas as pd
-import json
-import numpy as np
 
 
 def download_model(bucket=BUCKET_NAME, rm=False):
@@ -27,7 +26,6 @@ def download_model(bucket=BUCKET_NAME, rm=False):
 
 def get_player_features(name):
     url = "https://futdb.app/api/players/search"
-
 
     headers = CaseInsensitiveDict()
     headers["accept"] = "application/json"
@@ -57,7 +55,7 @@ def get_player_features(name):
             # deleting non matching columns with model database
             no_match = []
             for elem in list(flat_df.columns):
-                if elem[:1]=="_":
+                if elem[:1] == "_":
                     no_match.append(elem)
             flat_df = flat_df.drop(columns=no_match)
 
@@ -69,27 +67,38 @@ def get_player_features(name):
             traits_joined = ", ".join(traits)
             flat_df["player_traits"] = traits_joined
 
-
             # replacing codes with strings
             clubs = pd.read_csv(
-                "raw_data/matching_tables/data_clubs_matching_from_API.csv")
+                "raw_data/matching_tables/data_clubs_matching_from_API.csv"
+            )
             leagues = pd.read_csv(
-                "raw_data/matching_tables/data_leagues_matching_from_API.csv")
+                "raw_data/matching_tables/data_leagues_matching_from_API.csv"
+            )
             nations = pd.read_csv(
-                "raw_data/matching_tables/data_nations_matching_from_API.csv")
+                "raw_data/matching_tables/data_nations_matching_from_API.csv"
+            )
 
             flat_df.club_name = flat_df.club_name.map(
-                lambda x: list(clubs.loc[clubs["id"]==x])[0])
+                lambda x: list(clubs.loc[clubs["id"] == x].name)[0]
+            )
 
             flat_df.league_name = flat_df.league_name.map(
-                lambda x: list(leagues.loc[leagues["id"]==x])[0])
+                lambda x: list(leagues.loc[leagues["id"] == x].name)[0]
+            )
 
             flat_df.nationality = flat_df.nationality.map(
-                lambda x: list(nations.loc[nations["id"]==x])[0])
+                lambda x: list(nations.loc[nations["id"] == x].name)[0]
+            )
 
             flat_df = flat_df.fillna(value=np.nan)
 
-            for col in ["gk_diving", "gk_handling", "gk_kicking", "gk_positioning", "gk_reflexes"]:
+            for col in [
+                "gk_diving",
+                "gk_handling",
+                "gk_kicking",
+                "gk_positioning",
+                "gk_reflexes",
+            ]:
                 flat_df[col] = flat_df[col].astype(float)
 
             return flat_df
@@ -102,11 +111,12 @@ if __name__ == "__main__":
     features = get_player_features(player_name)
     if features.empty:
         print("No player match found. Retry.")
-    elif features.shape == (1,1):
+    elif features.shape == (1, 1):
         print("The player name you provided is not unique. Please respecify.")
     else:
         model = download_model()
         prediction = model.predict(features)
         formatted_prediction = "£{:,.1f}".format(prediction[0])
+        print(list(features.columns))
 
         print(f"Predicted market value: {formatted_prediction}")
