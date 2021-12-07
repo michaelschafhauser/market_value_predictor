@@ -4,7 +4,7 @@ from market_value_predictor.data import get_data_from_gcp
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
-from xgboost.sklearn import XGBRegressor
+from xgboost import XGBRegressor
 from sklearn.model_selection import train_test_split
 from termcolor import colored
 import joblib
@@ -62,10 +62,14 @@ class Trainer:
         )
 
         self.num_mean_tr = Pipeline(
-            [("imputer", SimpleImputer(strategy="mean")), ("scaler", StandardScaler())]
+            [("imputer", SimpleImputer(strategy="mean")),
+            ("scaler", StandardScaler())]
         )
 
-        self.cat_tr = OneHotEncoder(handle_unknown="ignore")
+        self.cat_tr = Pipeline([
+            ("imputer", SimpleImputer(strategy="constant", fill_value="Other")),
+            ("encoder", OneHotEncoder(handle_unknown="ignore"))
+        ])
 
         return self
 

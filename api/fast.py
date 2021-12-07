@@ -24,17 +24,15 @@ def index():
 
 
 @app.get("/predict")
-def index():
-
-    player_name=input("Please name a football player:   ")
-
-    # get player features from API
+def index(player_name):
     features = get_player_features(player_name)
-
-    # load model
-    model = download_model()
-
-    # make prediction using loaded model
-    prediction = model.predict(features)[0]
+    if features.empty:
+        prediction = "No player match found. Retry."
+    elif features.shape == (1, 1):
+        prediction = "The player name you provided is not unique. Please respecify."
+    else:
+        model = joblib.load("model.joblib")
+        prediction = model.predict(features)
+        prediction = "£{:,.1f}".format(prediction[0])
 
     return {"prediction": prediction}

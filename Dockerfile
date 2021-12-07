@@ -1,9 +1,11 @@
 FROM python:3.8.6-buster
 
 COPY market_value_predictor /market_value_predictor
+COPY predict.py /predict.py
 COPY api /api
 COPY requirements.txt /requirements.txt
 COPY model.joblib /model.joblib
+COPY raw_data/matching_tables /raw_data/matching_tables
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
