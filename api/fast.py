@@ -1,11 +1,7 @@
+import joblib
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import pandas as pd
-import pytz
-from datetime import datetime
-import joblib
-from predict import download_model
-from predict import get_player_features
+from market_value_predictor.predict import get_player_features
 
 app = FastAPI()
 
@@ -20,7 +16,7 @@ app.add_middleware(
 
 @app.get("/")
 def index():
-    return {"greeting": "Hello world"}
+    return {"greeting": "Welcome to the market value predictor"}
 
 
 @app.get("/predict")
@@ -33,6 +29,17 @@ def index(player_name):
     else:
         model = joblib.load("model.joblib")
         prediction = model.predict(features)
-        prediction = "£{:,.1f}".format(prediction[0])
+        prediction = "GBP {:,.1f}".format(prediction[0])
+        selected_features = features[
+            [
+                "overall",
+                "pace",
+                "shooting",
+                "passing",
+                "dribbling",
+                "defending",
+                "physic",
+            ]
+        ].to_dict(orient="list")
 
-    return {"prediction": prediction}
+    return {"prediction": prediction, "features": selected_features}

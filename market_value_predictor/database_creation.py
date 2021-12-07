@@ -1,10 +1,7 @@
-from collections import UserList
 import pandas as pd
-from pandas.core.reshape.concat import concat
 import requests
 from bs4 import BeautifulSoup
 from utils import position_field_transform
-
 
 
 def get_data(filepath):
@@ -121,8 +118,6 @@ def add_sofifa_id_to_non_matched_transfers(transfer_df, players_df):
     non_matched_transfers_df = non_matched_transfers_df.loc[
         non_matched_transfers_df["sofifa_id"].isnull()
     ].drop(columns="fifa year")
-
-    # non_matched_transfers_df = non_matched_transfers_df.iloc[:10]
 
     df = id_scrapping(non_matched_transfers_df, "player_name")
 
@@ -242,7 +237,6 @@ def clean_master_df(df):
 
     df = df.drop(
         columns=[
-            # "sofifa_id", "long_name",
             "dob",
             "joined",
             "nation_position",
