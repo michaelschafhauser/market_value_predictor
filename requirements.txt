@@ -30,3 +30,5 @@ memoized-property
 termcolor
 uvicorn
 fastapi
+python-dotenv
+forex_python

@@ -1,4 +1,17 @@
 import collections.abc
+import pandas as pd
+# from forex_python.converter import CurrencyRates
+import json
+import requests
+from requests.structures import CaseInsensitiveDict
+import os
+from dotenv import load_dotenv
+import requests
+from requests.structures import CaseInsensitiveDict
+import io
+from PIL import Image
+
+load_dotenv()
 
 
 def position_field_transform(pos):
@@ -145,3 +158,92 @@ usable_columns = [
     "gk_reflexes",
     "player_traits",
 ]
+
+
+def get_transfer_history(player_name):
+    df = pd.read_csv("raw_data/transfer_history_combined.csv")
+
+    try:
+        transfer_df = df.loc[(df["player_name"] == player_name)
+        & (df["transfer_movement"] == "in")][[
+            "player_name", "age", "club_name", "club_involved_name",
+            "fee_cleaned", "season", "transfer_period"
+        ]].rename(
+            columns={
+                "club_name": "receiving_club",
+                "club_involved_name": "giving_club",
+                "fee_cleaned": "transfer_fee"
+            })
+
+        c = CurrencyRates()
+
+        transfer_df["transfer_fee"] = transfer_df.transfer_fee.map(
+            lambda x: round(x*float(c.get_rate('GBP', 'EUR')), 2))
+
+        if transfer_df.empty:
+            transfer_dict = {"info": "no transfer history found"}
+        else:
+            transfer_dict = transfer_df.to_dict(orient="list")
+
+    except:
+        transfer_dict = {"info": "no transfer history found"}
+
+    return transfer_dict
+
+
+def get_player_id(player_name):
+    url = "https://futdb.app/api/players/search"
+
+    headers = CaseInsensitiveDict()
+    headers["accept"] = "application/json"
+    headers["X-AUTH-TOKEN"] = os.getenv("API_TOKEN")
+    headers["Content-Type"] = "application/json"
+
+    api_call = {"name": player_name}
+
+    data = json.dumps(api_call)
+
+    resp = requests.post(url, headers=headers, data=data)
+
+    if resp.json()["items"]:
+
+        temp_list = []
+        for i in range(resp.json()["count"]):
+            temp_list.append(resp.json()["items"][i]["resource_base_id"])
+        num_of_players = len(set(temp_list))
+
+        player_base_id = temp_list[0]
+
+        temp_list = []
+        for j in range(resp.json()["count"]):
+            temp_list.append(resp.json()["items"][j]["resource_id"])
+        card_index = temp_list.index(player_base_id)
+
+        player_dict = resp.json()["items"][card_index]
+
+        if num_of_players > 1:
+            return None
+
+        else:
+            return player_dict["id"]
+    else:
+        return None
+
+def get_player_image(player_id):
+    url = "https://futdb.app/api/players/"
+
+
+    headers = CaseInsensitiveDict()
+    headers["accept"] = "*/*"
+    headers["X-AUTH-TOKEN"] = "6ee5d299-299c-480c-ba52-514607532d6a"
+
+    response = requests.get(url + str(player_id) + "/image", headers=headers)
+
+    in_memory_file = io.BytesIO(response.content)
+
+    im = Image.open(in_memory_file)
+
+    pic_path = "image/player_image.png"
+    im.save(pic_path)
+
+    return pic_path

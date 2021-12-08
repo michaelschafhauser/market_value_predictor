@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import os
 import joblib
 import json
 import requests
@@ -8,6 +7,9 @@ from requests.structures import CaseInsensitiveDict
 from google.cloud import storage
 from market_value_predictor.params import BUCKET_NAME
 from market_value_predictor.utils import flatten, rename_api_feature_columns
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 
 def download_model(bucket=BUCKET_NAME, rm=False):
@@ -29,21 +31,39 @@ def get_player_features(name):
 
     headers = CaseInsensitiveDict()
     headers["accept"] = "application/json"
-    headers["X-AUTH-TOKEN"] = "6ee5d299-299c-480c-ba52-514607532d6a"
+    headers["X-AUTH-TOKEN"] = os.getenv("API_TOKEN")
     headers["Content-Type"] = "application/json"
 
     api_call = {"name": name}
 
     data = json.dumps(api_call)
 
-    resp = requests.post(url, headers=headers, data=data)
-    if resp.json()["items"]:
-        player_dict = resp.json()["items"][0]
+    # get clean name here
 
-        if len(resp.json()["items"]) > 2:
-            return pd.DataFrame([0])
+    resp = requests.post(url, headers=headers, data=data)
+
+    if resp.json()["items"]:
+
+        temp_list = []
+        for i in range(resp.json()["count"]):
+            temp_list.append(resp.json()["items"][i]["resource_base_id"])
+        num_of_players = len(set(temp_list))
+
+
+        player_base_id = temp_list[0]
+
+        temp_list = []
+        for j in range(resp.json()["count"]):
+            temp_list.append(resp.json()["items"][j]["resource_id"])
+        card_index = temp_list.index(player_base_id)
+
+        player_dict = resp.json()["items"][card_index]
+
+        if num_of_players > 1:
+            return pd.DataFrame([0]), "The player name you provided is not unique. Please respecify."
 
         else:
+            clean_player_name = player_dict["name"]
             flat_player_dict = flatten(player_dict)
             flat_player_dict.pop("traits")
             flat_player_dict.pop("specialities")
@@ -101,9 +121,9 @@ def get_player_features(name):
             ]:
                 flat_df[col] = flat_df[col].astype(float)
 
-            return flat_df
+            return flat_df, clean_player_name
     else:
-        return pd.DataFrame()
+        return pd.DataFrame(), "No player found"
 
 
 if __name__ == "__main__":
