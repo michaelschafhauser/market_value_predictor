@@ -110,7 +110,7 @@ def get_player_features(name):
                 lambda x: list(nations.loc[nations["id"] == x].name)[0]
             )
 
-            flat_df = flat_df.fillna(value=np.nan)
+            flat_df = flat_df.fillna(0)
 
             for col in [
                 "gk_diving",
@@ -119,7 +119,7 @@ def get_player_features(name):
                 "gk_positioning",
                 "gk_reflexes",
             ]:
-                flat_df[col] = flat_df[col].astype(float)
+                flat_df[col] = flat_df[col].astype(int)
 
             return flat_df, clean_player_name
     else:
@@ -128,15 +128,19 @@ def get_player_features(name):
 
 if __name__ == "__main__":
     player_name = input("input player name:     ")
-    features = get_player_features(player_name)
+    features, _ = get_player_features(player_name)
+    for i in range(len(list(features.columns))):
+        print(f"{list(features.columns)[i]}: {features.iloc[0][i]}")
+
     if features.empty:
         print("No player match found. Retry.")
+
     elif features.shape == (1, 1):
         print("The player name you provided is not unique. Please respecify.")
+
     else:
         model = download_model()
         prediction = model.predict(features)
         formatted_prediction = "£{:,.1f}".format(prediction[0])
-        print(list(features.columns))
 
         print(f"Predicted market value: {formatted_prediction}")

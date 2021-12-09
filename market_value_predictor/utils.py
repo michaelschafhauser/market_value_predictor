@@ -1,15 +1,7 @@
 import collections.abc
 import pandas as pd
-# from forex_python.converter import CurrencyRates
-import json
-import requests
-from requests.structures import CaseInsensitiveDict
-import os
+from forex_python.converter import CurrencyRates
 from dotenv import load_dotenv
-import requests
-from requests.structures import CaseInsensitiveDict
-import io
-from PIL import Image
 
 load_dotenv()
 
@@ -175,6 +167,8 @@ def get_transfer_history(player_name):
                 "fee_cleaned": "transfer_fee"
             })
 
+        transfer_df.transfer_fee = transfer_df.transfer_fee.fillna(0)
+
         c = CurrencyRates()
 
         transfer_df["transfer_fee"] = transfer_df.transfer_fee.map(
@@ -191,59 +185,5 @@ def get_transfer_history(player_name):
     return transfer_dict
 
 
-def get_player_id(player_name):
-    url = "https://futdb.app/api/players/search"
-
-    headers = CaseInsensitiveDict()
-    headers["accept"] = "application/json"
-    headers["X-AUTH-TOKEN"] = os.getenv("API_TOKEN")
-    headers["Content-Type"] = "application/json"
-
-    api_call = {"name": player_name}
-
-    data = json.dumps(api_call)
-
-    resp = requests.post(url, headers=headers, data=data)
-
-    if resp.json()["items"]:
-
-        temp_list = []
-        for i in range(resp.json()["count"]):
-            temp_list.append(resp.json()["items"][i]["resource_base_id"])
-        num_of_players = len(set(temp_list))
-
-        player_base_id = temp_list[0]
-
-        temp_list = []
-        for j in range(resp.json()["count"]):
-            temp_list.append(resp.json()["items"][j]["resource_id"])
-        card_index = temp_list.index(player_base_id)
-
-        player_dict = resp.json()["items"][card_index]
-
-        if num_of_players > 1:
-            return None
-
-        else:
-            return player_dict["id"]
-    else:
-        return None
-
-def get_player_image(player_id):
-    url = "https://futdb.app/api/players/"
-
-
-    headers = CaseInsensitiveDict()
-    headers["accept"] = "*/*"
-    headers["X-AUTH-TOKEN"] = "6ee5d299-299c-480c-ba52-514607532d6a"
-
-    response = requests.get(url + str(player_id) + "/image", headers=headers)
-
-    in_memory_file = io.BytesIO(response.content)
-
-    im = Image.open(in_memory_file)
-
-    pic_path = "image/player_image.png"
-    im.save(pic_path)
-
-    return pic_path
+# if __name__ == "__main__":
+#     get_transfer_history("Lionel Messi")
