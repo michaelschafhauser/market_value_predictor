@@ -32,3 +32,4 @@ uvicorn
 fastapi
 python-dotenv
 forex_python
+datetime

@@ -1,7 +1,9 @@
 import collections.abc
 import pandas as pd
 from forex_python.converter import CurrencyRates
+from forex_python.converter import get_rate
 from dotenv import load_dotenv
+from datetime import datetime
 
 load_dotenv()
 
@@ -157,22 +159,36 @@ def get_transfer_history(player_name):
 
     try:
         transfer_df = df.loc[(df["player_name"] == player_name)
-        & (df["transfer_movement"] == "in")][[
-            "player_name", "age", "club_name", "club_involved_name",
-            "fee_cleaned", "season", "transfer_period"
-        ]].rename(
-            columns={
-                "club_name": "receiving_club",
-                "club_involved_name": "giving_club",
-                "fee_cleaned": "transfer_fee"
-            })
+                            & (df["transfer_movement"] == "in")][[
+                                "player_name", "age", "club_name",
+                                "club_involved_name", "fee_cleaned", "season",
+                                "transfer_period"
+                            ]].rename(
+                                columns={
+                                    "club_name": "receiving_club",
+                                    "club_involved_name": "giving_club",
+                                    "fee_cleaned": "transfer_fee"
+                                })
 
         transfer_df.transfer_fee = transfer_df.transfer_fee.fillna(0)
 
+        transfer_df["year"] = transfer_df.season.map(lambda x: int(x[:4]))
+
+        transfer_df["timestamp"] = transfer_df.apply(
+            lambda x: datetime(x["year"], 8, 31)
+            if x["transfer_period"] == "Summer" else datetime(
+                x["year"], 12, 31),
+            axis=1)
+
         c = CurrencyRates()
 
-        transfer_df["transfer_fee"] = transfer_df.transfer_fee.map(
-            lambda x: round(x*float(c.get_rate('GBP', 'EUR')), 2))
+        transfer_df["rate"] = transfer_df.apply(lambda x: get_rate("GBP", "EUR", x["timestamp"]), axis=1)
+
+        transfer_df["transfer_fee"] = transfer_df.apply(
+            lambda x: round(x["transfer_fee"] * x["rate"], 2), axis=1)
+
+
+        transfer_df = transfer_df.drop(columns=["year", "timestamp", "rate"])
 
         if transfer_df.empty:
             transfer_dict = {"info": "no transfer history found"}
