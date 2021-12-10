@@ -129,8 +129,6 @@ def get_player_features(name):
 if __name__ == "__main__":
     player_name = input("input player name:     ")
     features, _ = get_player_features(player_name)
-    for i in range(len(list(features.columns))):
-        print(f"{list(features.columns)[i]}: {features.iloc[0][i]}")
 
     if features.empty:
         print("No player match found. Retry.")
